@@ -1,2 +1,7 @@
 .qodo
 node_modules
+.next/cache/
+node_modules/
+*.exe
+.next/cache/
+node_modules/
