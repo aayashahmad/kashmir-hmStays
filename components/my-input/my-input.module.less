@@ -1,0 +1,45 @@
+.common_kupos_input {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+
+  .input_outer {
+    border-radius: 10px;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: none;
+    position: relative;
+    padding: 0px 10px;
+    border: 1px solid var(--primary-text-color);
+
+    &.error {
+      border-color: red;
+    }
+
+    input {
+      width: 100%;
+      border-radius: 10px;
+      height: 46px;
+      padding: 10px 4px;
+      padding-top: 12px;
+      border: 0;
+      flex: 1;
+      box-shadow: none;
+      color: var(--primary-text-color);
+      background-color: white;
+    }
+  }
+
+
+
+  span.error {
+    color: red;
+    font-size: 0.6em;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .icon-right {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+.todo_wrapper{
+  padding-bottom: 30px;
+    .todo_title {
+      font-size: 22px;
+      font-weight: 600;
+      color: #202020;
+      text-transform: capitalize;
+
+      span {
+        margin-left: 6px;
+      }
+    }
+
+    .todo_links {
+      margin-top: 10px;
+      margin-left: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      span{
+        font-size: clamp(12px,1.1vw,14px);
+        padding-right: 10px;
+        text-decoration: underline;
+        line-height: 2;
+        color: #8e8e8e;
+        cursor: pointer;
+      }
+      span:hover{
+        color: var(--primary-color);
+        cursor: pointer;
+      }
+    }
+  }

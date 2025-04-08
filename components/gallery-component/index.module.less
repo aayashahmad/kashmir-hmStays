@@ -1,0 +1,132 @@
+.working_parent {
+    padding: 60px 0;
+
+    .working_head {
+        border-left: 3px solid var(--primary-color);
+        display: flex;
+        flex-direction: column;
+
+        .working_head1 {
+            padding-left: 20px;
+            color: var(--primary-color);
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .working_head2 {
+            padding-left: 20px;
+            color: #4e4747;
+            font-size: 40px;
+            font-weight: 600;
+            .working_head3 {
+                color: #111;
+                font-weight: 900;
+            }
+        }
+        
+    }
+
+    .working_body {
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        .inner_working_body{
+            height: 240px;
+            flex-grow: 1;
+            img{
+                max-height: 100%;
+                min-width: 100%;
+                object-fit: cover;
+                vertical-align: bottom;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+// ************************working style media querie******************
+
+
+@media screen and (max-width:920px) {
+    .working_parent {
+    
+        .working_head {
+    
+            .working_head1 {
+                font-size: 20px;
+            }
+    
+            .working_head2 {
+                font-size: 30px;
+    
+            }
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+    .working_parent {
+    
+        .working_head {
+    
+            .working_head1 {
+                font-size: 15px;
+            }
+    
+            .working_head2 {
+                font-size: 20px;
+    
+            }
+        }
+    }
+}
+
+@media screen and (max-width:436px) {
+    .working_parent {
+    
+        .working_head {
+    
+            .working_head1 {
+                font-size: 13px;
+            }
+    
+            .working_head2 {
+                font-size: 16px;
+    
+            }
+        }
+        .working_body{
+            flex-direction: column;
+            flex-wrap: unset;
+            .inner_working_body{
+                height: 40vh;
+                flex-grow: unset;
+                width: auto;
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    vertical-align: unset;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .working_parent {
+    
+        .working_head {
+    
+            .working_head1 {
+                font-size: 12px;
+            }
+    
+            .working_head2 {
+                font-size: 16px;
+    
+            }
+        }
+    }
+}

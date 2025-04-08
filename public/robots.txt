@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.kashmirnirvana.com
+
+# Sitemaps
+Sitemap: https://www.kashmirnirvana.com/sitemap.xml

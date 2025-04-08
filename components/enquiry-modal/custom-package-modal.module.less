@@ -1,0 +1,116 @@
+.modalBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.modalContent {
+  display: flex;
+  width: 480px;
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+
+  @media screen and (max-width: 640px) {
+    width: 100%;
+  }
+}
+
+.modalLeft {
+  flex: 1;
+  padding-right: 20px;
+  border-right: 1px solid #e0e0e0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+
+  .contactIcons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    a img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.modalRight {
+  flex: 2;
+  padding-left: 20px;
+
+  .modal_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    // text-align: center;
+  }
+
+  .inputGroup {
+    display: grid;
+    gap: 15px;
+
+    .MaterialInput input {
+      width: 100%;
+      border: 1px solid var(--primary-color);
+      padding: 10px;
+      border-radius: 7px;
+    }
+  }
+
+  .submitButton {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+.closeIcon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+  z-index: 10000;
+
+  svg {
+    height: 20px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .modalContent {
+    flex-direction: column;
+  }
+
+  .modalLeft {
+    padding-right: 0;
+    border-right: none;
+    padding-bottom: 20px;
+  }
+
+  .modalRight {
+    padding-left: 0;
+  }
+}

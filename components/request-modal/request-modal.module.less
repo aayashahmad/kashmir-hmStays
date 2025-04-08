@@ -1,0 +1,194 @@
+.main {
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .close_icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
+    img {
+      width: 16px;
+      height: auto;
+    }
+  }
+
+  .SmallNavbar_login {
+    padding: 10px;
+
+    .SmallNavbar_login_head_image {
+      display: grid;
+      grid-template-columns: 90px auto;
+      padding: 20px 30px 10px 30px;
+
+      .SmallNavbar_login_img {
+        height: 80px;
+        width: 80px;
+
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+      }
+
+      .SmallNavbar_login_text {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        color: var(--primary-color);
+        font-weight: 600;
+      }
+    }
+
+    .SmallNavbar_login_form {
+      padding: 10px 15px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+
+      .input_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+
+        .MuiFormControl-root {
+          .MuiInputBase-root {
+            input {
+              padding: 8px 14px !important;
+              height: 36px;
+            }
+          }
+        }
+
+        @media screen and (max-width: 300px) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      .SmallNavbar_login_form_in1 {
+        input {
+          width: 100%;
+          border: 1px solid var(--primary-color);
+          padding: 10px 10px;
+          border-radius: 7px;
+        }
+      }
+
+      .SmallNavbar_login_form_in2 {
+        input {
+          width: 100%;
+          border: 1px solid var(--primary-color);
+          padding: 10px 10px;
+          border-radius: 7px;
+        }
+      }
+
+      .SmallNavbar_login_form_in3 {
+        display: grid;
+        grid-template-columns: 90px 1fr;
+        gap: 10px;
+
+        input {
+          width: 100%;
+          border: 1px solid var(--primary-color);
+          padding: 10px 10px;
+          border-radius: 7px;
+        }
+      }
+
+      .SmallNavbar_login_form_in4 {
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 10px;
+
+        input {
+          width: 100%;
+          border: 1px solid var(--primary-color);
+          padding: 10px 10px;
+          border-radius: 7px;
+        }
+      }
+
+      .SmallNavbar_login_form_in5 {
+        textarea {
+          width: 100%;
+          height: 50px;
+          border: 1px solid var(--primary-color);
+          padding: 10px 10px;
+          border-radius: 7px;
+          outline: none;
+          background-color: #fff;
+          min-height: 100px;
+          color: var(--secondary-color);
+        }
+      }
+
+      .SmallNavbar_login_form_button {
+        button {
+          width: 100%;
+          border: none;
+          background-color: var(--primary-color);
+          color: #fff;
+          padding: 10px 10px;
+          border-radius: 7px;
+
+          @media screen and (max-width: 440px) {
+            button {
+              font-size: 0.8rem !important;
+            }
+          }
+        }
+
+        button:hover {
+          border: 1px solid var(--primary-color);
+          background-color: var(--secondary-color);
+          color: var(--primary-color);
+        }
+      }
+
+      .successMessage {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 30px;
+
+        .successMessage_text {
+          text-align: center;
+          font-size: 24px;
+          color: var(--primary-color);
+
+          .successMessage_sp {
+            font-weight: 700;
+          }
+        }
+
+        .successMessage_logo {
+          height: 60px;
+          width: 60px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .main {
+    width: 100%;
+  }
+}

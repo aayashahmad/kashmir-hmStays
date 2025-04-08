@@ -1,0 +1,158 @@
+.left_container {
+    margin-top: 20px;
+    .head_text {
+        .inner_head_text_parent {
+
+            .inner_head_text {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 25px;
+                font-weight: 600;
+                color: #111;
+                padding-bottom: 30px;
+                cursor: pointer;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+
+                .rotates180 {
+                    transform: rotateX(180deg) !important;
+                    transition: all 500ms ease !important;
+                }
+            }
+
+            .inner_left_container {
+                .left_body_text {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 10px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #202020;
+                    cursor: pointer;
+                    -webkit-touch-callout: none;
+
+                    -webkit-user-select: none;
+
+                    -khtml-user-select: none;
+
+                    -moz-user-select: none;
+
+                    -ms-user-select: none;
+
+                    user-select: none;
+
+                    .faq_action_btn {
+                        color: #F47625;
+                        font-size: 20px;
+                        font-weight: 800;
+                        -webkit-touch-callout: none;
+
+                        -webkit-user-select: none;
+
+                        -khtml-user-select: none;
+
+                        -moz-user-select: none;
+
+                        -ms-user-select: none;
+
+                        user-select: none;
+                    }
+
+                    .showcontent {
+                        .show_text {
+                            font-size: 14px;
+                            color: #8e8e8e;
+                            padding: 10px 0 0 10px;
+                            -webkit-touch-callout: none;
+
+                            -webkit-user-select: none;
+
+                            -khtml-user-select: none;
+
+                            -moz-user-select: none;
+
+                            -ms-user-select: none;
+
+                            user-select: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//************************************dubai faqs media querie************************************************
+
+@media screen and (max-width:640px) {
+    .left_container {
+        .head_text {
+            .inner_head_text_parent {
+                .inner_head_text {
+                    padding-bottom: 20px;
+                    font-size: 20px;
+                }
+
+                .inner_left_container {
+                    .left_body_text {
+                        gap: 5px;
+                        padding-bottom: 5px;
+                        font-size: 13px;
+
+                        .faq_action_btn {
+                            font-size: 15px;
+                        }
+
+                        .showcontent {
+                            .show_text {
+                                font-size: 10px;
+                                padding: 10px 0 0 10px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:436px) {
+    .left_container {
+        .head_text {
+            .inner_head_text_parent {
+                .inner_head_text {
+                    padding-bottom: 15px;
+                    // font-size: 15px;
+                }
+
+                .inner_left_container {
+                    .left_body_text {
+                        gap: 5px;
+                        padding-bottom: 5px;
+                        font-size: 13px;
+                        font-weight: 600;
+
+                        .faq_action_btn {
+                            font-size: 13px;
+                        }
+
+                        .showcontent {
+                            .show_text {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

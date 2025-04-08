@@ -1,0 +1,132 @@
+.main_nav_container {
+  width: 100%;
+  z-index: 999;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+
+  &.main_nav_container_fixed_header {
+    border-radius: 0 0 20px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
+    background-color: #fff;
+    padding-top: 0rem;
+    top: 0;
+
+    .nav_container {
+      padding: 15px 0;
+    }
+  }
+
+  &.main_nav_container_absolute_header {
+    position: absolute;
+    height: 65px;
+    margin: 41px 0;
+  }
+
+  .nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 6px 20px;
+    border-radius: 100px;
+
+    .logo_sprite {
+      width: 200px;
+      height: 40px;
+      display: block;
+      background-position: 10 10;
+      background: url(/images/logo-sprite.png) 0 -182px;
+    }
+
+    .logo {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 200px;
+
+        height: auto;
+        transition: 0.25s all linear;
+        margin-bottom: 0;
+
+        &.small {
+          width: 200px;
+        }
+      }
+    }
+
+    .links_style {
+      height: 100%;
+    }
+
+    .links_container {
+
+      ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 0;
+
+        .cancel_ticket_top_strip {
+          padding: 5px 14px;
+          height: 40px;
+          /* width: 136px; */
+          background-color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 20px;
+          border-radius: 30px;
+          color: #000;
+
+          .cancel_ticket_top_strip_inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              height: 20px;
+              width: auto;
+              margin-right: 10px;
+            }
+
+            span {
+              margin-top: 1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:940px) {
+
+  .main_nav_container {
+    .nav_container {
+      width: 100%;
+      align-items: center;
+
+      .logo_sprite {
+        width: 180px;
+      }
+
+      .links_container {
+        width: 90%;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  .main_nav_container {
+    display: none;
+  }
+
+}

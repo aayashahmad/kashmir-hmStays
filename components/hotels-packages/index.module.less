@@ -1,0 +1,110 @@
+
+.hotels_parent_body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    margin: 50px 0;
+    font-size: 20px;
+
+    .hotels_inner_parent_body {
+        width: 25vw;
+        margin-bottom: 50px;
+
+        .hotels_inner_parent_body_img {
+            height: 40vh;
+
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                object-fit: cover;
+            }
+        }
+
+        .hotels_inner_parent_body_stars {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+
+            .stars_one {
+                color: #7a7a7a;
+            }
+
+            .stars_two {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                color: #19ad6f;
+                font-size: 20px;
+                width: 100%;
+
+                .rating_icon {
+                    height: 20px;
+                    width: 30px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .hotels_inner_parent_body_dec {
+            padding-top: 10px;
+            color: #202020;
+            font-weight: 500;
+        }
+
+        .hotels_inner_parent_body_price {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .activities_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            span:nth-child(2) svg {
+                transform: rotateY(180deg);
+            }
+        }
+
+
+    }
+
+}
+
+
+// media queries STARTS FROM HERE
+@media only screen and (max-width: 920px){
+    .hotels_parent_body {
+        grid-template-columns: repeat(2, 1fr);
+
+        .hotels_inner_parent_body{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+@media only screen and (max-width: 640px){
+    .hotels_parent_body {
+        grid-template-columns: repeat(1, 1fr);
+
+        .hotels_inner_parent_body{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+    
+
+@media only screen and (max-width: 440px) {
+  .hotels_parent_body {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+
+        .hotels_inner_parent_body{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

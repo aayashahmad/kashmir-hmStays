@@ -1,0 +1,33 @@
+.left_highlighted_title {
+    border-left: 4px solid var(--primary-color);
+    padding: 12px 20px 12px 16px;
+
+    .title_hero_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        .title_wrapper {
+            font-size: 22px;
+            color: #000;
+    
+        }
+        .left_highlighted_button{
+            button {
+                height: 30px;
+                width: 120px;
+                background-color: var(--secondary-color);
+                color: var(--white-color);
+                border: none;
+                border-radius: 20px;
+                font-size: 14px;
+                @media screen and (max-width:640px) {
+                    height: 25px;
+                    width: 90px;
+                    font-size: 10px;
+                    
+                }
+              }
+        }
+    }
+}

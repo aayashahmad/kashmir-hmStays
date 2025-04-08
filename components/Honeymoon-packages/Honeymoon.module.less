@@ -1,0 +1,417 @@
+.honeymoon_parent {
+  padding: 40px 0 70px 0;
+
+  @media screen and (max-width: 920px) {
+    padding: 40px 0 30px 0;
+  }
+
+  .honeymoon_parent_head {
+    padding-bottom: 24px;
+
+    .head_one {
+      padding-bottom: 4px;
+      font-size: 22px;
+      color: #202020;
+      font-weight: 600;
+    }
+
+    .head_two {
+      font-size: 18px;
+      color: #515151;
+      font-weight: 500;
+    }
+  }
+
+  .honeymoon_parent_body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4vw;
+
+    .honeymoon_inner_parent_body {
+      position: relative;
+
+      .honeymoon_inner_parent_body_img {
+        height: 50vh;
+
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+      }
+
+      .honeymoon_inner_parent_body_overly {
+        position: absolute;
+        top: 0;
+        margin-top: 15px;
+        background: linear-gradient(90deg, #eb1e24, #aa0004);
+        height: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0 8px;
+        color: #ffffff;
+      }
+
+      .honeymoon_inner_parent_body_stars {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+
+        .stars_one {
+          color: #7a7a7a;
+          font-size: 16px;
+        }
+
+        .stars_two {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 8;
+          color: #19ad6f;
+          font-size: 20px;
+
+          .rating_icon {
+            height: 20px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+
+      .honeymoon_inner_parent_body_dec {
+        padding-top: 10px;
+        color: #202020;
+        font-weight: 500;
+        font-size: 16px;
+      }
+
+      .honeymoon_inner_parent_body_christmas {
+        margin: 15px 0;
+        position: relative;
+        background: linear-gradient(90deg, #eb1e24, #aa0004);
+        border-radius: 30px;
+        width: 160px;
+
+        .christmas_text {
+          font-size: 13px;
+          font-weight: 600;
+          color: #ffffff;
+          text-align: end;
+          padding-right: 10px;
+        }
+
+        .christmas_img {
+          width: 45px;
+          height: 45px;
+          position: absolute;
+          bottom: -7px;
+          left: -12px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      .honeymoon_inner_parent_body_price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #202020;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .honeymoon_inner_parent_body_call {
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .call_one {
+          color: var(--primary-color);
+          width: 150px;
+          height: 50px;
+          border-radius: 7px;
+          border: 1px solid var(--secondary-color);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          font-size: 14px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+
+        .call_two {
+          button {
+            background: var(--primary-color);
+            color: var(--secondary-color);
+            width: 150px;
+            height: 50px;
+            border-radius: 7px;
+            border: 1px solid var(--primary-color);
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+
+.SmallNavbar_login {
+  padding: 10px;
+
+  .SmallNavbar_login_head_image {
+    display: grid;
+    grid-template-columns: 90px auto;
+    padding: 20px 30px 10px 30px;
+
+    .SmallNavbar_login_img {
+      height: 100%;
+      width: 100%;
+
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+
+    .SmallNavbar_login_text {
+      padding: 20px;
+      font-size: 16px;
+      color: #1f2c4b;
+      font-weight: 600;
+    }
+  }
+
+  .SmallNavbar_login_form {
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+
+    .SmallNavbar_login_form_in1 {
+      input {
+        width: 100%;
+        border: 1px solid #1f2c4b;
+        padding: 10px 10px;
+        border-radius: 7px;
+      }
+    }
+
+    .SmallNavbar_login_form_in2 {
+      input {
+        width: 100%;
+        border: 1px solid #1f2c4b;
+        padding: 10px 10px;
+        border-radius: 7px;
+      }
+    }
+
+    .SmallNavbar_login_form_in3 {
+      display: grid;
+      grid-template-columns: 90px 1fr;
+      gap: 10px;
+
+      input {
+        width: 100%;
+        border: 1px solid #1f2c4b;
+        padding: 10px 10px;
+        border-radius: 7px;
+      }
+    }
+
+    .SmallNavbar_login_form_in4 {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 10px;
+
+      input {
+        width: 100%;
+        border: 1px solid #1f2c4b;
+        padding: 10px 10px;
+        border-radius: 7px;
+      }
+    }
+
+    .SmallNavbar_login_form_in5 {
+      textarea {
+        width: 100%;
+        height: 50px;
+        border: 1px solid #1f2c4b;
+        padding: 10px 10px;
+        border-radius: 7px;
+        outline: none;
+        background-color: #fff;
+        min-height: 100px;
+        color: #464647;
+      }
+    }
+
+    .SmallNavbar_login_form_button {
+      button {
+        width: 100%;
+        border: 1px solid #ccff5f;
+        background-color: #1f2c4b;
+        color: #ffffff;
+        padding: 10px 10px;
+        border-radius: 7px;
+      }
+
+      button:hover {
+        border: 1px solid #1f2c4b;
+        background-color: #ccff5f;
+        color: #1f2c4b;
+      }
+    }
+
+    .successMessage {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 30px;
+
+      .successMessage_text {
+        text-align: center;
+        font-size: 24px;
+        color: #111;
+
+        .successMessage_sp {
+          font-weight: 700;
+        }
+      }
+
+      .successMessage_logo {
+        height: 60px;
+        width: 60px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+//**************************************honeymoon media querie***********************************************
+
+@media screen and (max-width: 1240px) {
+  .honeymoon_parent {
+    .honeymoon_parent_body {
+      .honeymoon_inner_parent_body {
+        .honeymoon_inner_parent_body_call {
+          .call_one {
+            height: 40px;
+            width: 135px;
+          }
+
+          .call_two {
+            button {
+              height: 40px;
+              width: 135px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .honeymoon_parent {
+    .honeymoon_parent_body {
+      .honeymoon_inner_parent_body {
+        .honeymoon_inner_parent_body_call {
+          .call_one {
+            height: 35px;
+            width: 125px;
+          }
+
+          .call_two {
+            button {
+              height: 35px;
+              width: 125px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .honeymoon_parent {
+    .honeymoon_parent_body {
+      grid-template-columns: repeat(2, 1fr);
+
+      .honeymoon_inner_parent_body {
+        .honeymoon_inner_parent_body_call {
+          .call_one {
+            height: 50px;
+            width: 150px;
+          }
+
+          .call_two {
+            button {
+              height: 50px;
+              width: 150px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .honeymoon_parent {
+    .honeymoon_parent_body {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .honeymoon_parent {
+    .honeymoon_parent_body {
+      .honeymoon_inner_parent_body {
+        .honeymoon_inner_parent_body_img {
+          height: 40dvh;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .honeymoon_parent {
+    .honeymoon_parent_body {
+      .honeymoon_inner_parent_body {
+        .honeymoon_inner_parent_body_call {
+          .call_one {
+            height: 30px;
+            width: 120px;
+            font-size: 12px;
+          }
+
+          .call_two {
+            button {
+              height: 30px;
+              font-size: 12px;
+              width: 120px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

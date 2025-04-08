@@ -1,0 +1,52 @@
+    .honeymoon_inner_parent_body {
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        @media (max-width: 768px) {
+            margin-bottom: 36px;
+        }
+
+        .honeymoon_inner_parent_body_img {
+            height: 22vw;
+
+            @media (max-width: 768px) {
+                height: 80vw;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                object-fit: cover;
+            }
+        }
+
+        .honeymoon_inner_parent_body_overly {
+            position: absolute;
+            top: 15px;
+            background: linear-gradient(90deg, #eb1e24, #aa0004);
+            height: 20px;
+            font-size: 12px;
+            padding: 0 8px;
+            padding-right: 10px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0 20px 20px 0;
+        }
+
+
+        .title {
+            padding: 10px 0;
+            color: #202020;
+        }
+
+        .desc {
+            color: #202020;
+            text-align: justify;
+        }
+
+    }

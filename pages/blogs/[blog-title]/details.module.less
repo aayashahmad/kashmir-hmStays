@@ -1,0 +1,159 @@
+.route_pages {
+    margin-bottom: 20vh;
+
+    .page_description {
+        margin-top: 40px;
+        text-align: justify;
+        font-size: 16pt;
+
+        @media screen and (max-width: 436px) {
+            font-size: 16px !important;
+            line-height: 2;
+        }
+    }
+
+
+
+    .index_and_content {
+        position: relative;
+        display: grid;
+        grid-template-columns: 15vw auto;
+        margin: 60px 0;
+        gap: 20px;
+
+        @media screen and (max-width:640px) {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .index_section {
+            height: fit-content;
+            width: 100%;
+            position: sticky;
+            top: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 11px;
+            color: var(--primary-text-color);
+            border-radius: 10px;
+            padding: 10px;
+            z-index: 100;
+
+            @media screen and (max-width: 630px) {
+                width: 100%;
+            }
+
+            .card {
+                background-color: red;
+            }
+
+            .index_container {
+                cursor: pointer;
+
+                .index_text {
+                    font-size: 12px;
+                    font-weight: 900;
+                    color: #464647;
+                    line-height: 2;
+
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6 {
+                        margin: 0;
+                        font-size: 12px !important;
+                    }
+
+                }
+            }
+        }
+
+        .netflix_effect {
+
+            .rewind_container {
+                .rewind_heading {
+                    font-size: 16px;
+                    font-weight: 900;
+                    color: #464647;
+                    line-height: 2;
+
+                    @media screen and (max-width: 530px) {
+                        font-size: 14px;
+                    }
+                }
+
+                .rewind_upper_text {
+                    font-size: 16px;
+                    margin-top: 17px;
+                    line-height: 2;
+
+                    p {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    @media screen and (max-width: 530px) {
+                        font-size: 14px;
+
+                    }
+                }
+            }
+
+            .tweet_container {
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+
+                .person {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .person_img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        overflow: hidden;
+
+                        & img {
+                            width: 100%;
+                        }
+                    }
+
+                    .person_name_container {
+                        display: flex;
+                        gap: 8px;
+
+                        .name {
+                            display: flex;
+                            flex-direction: column;
+                            line-height: 1;
+
+                            & :nth-child(2) {
+                                color: gray;
+                            }
+
+                            .person_name {
+                                .last_name {
+                                    margin-left: 8px;
+                                    color: unset;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+.cursive_text {
+    text-align: justify;
+}

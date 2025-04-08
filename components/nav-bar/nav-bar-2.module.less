@@ -1,0 +1,83 @@
+.main_nav_container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  border-radius: 0 0 20px 20px;
+
+  background-color: var(--primary-color);
+  padding: 20px 0;
+
+  .nav_child_container {
+    max-height: 100px;
+  }
+
+  .nav_child_hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s cubic-bezier(0.4, 0, 1, 1);
+  }
+
+  &.main_nav_container_fixed_header {
+    position: fixed;
+  }
+
+  &.main_nav_container_absolute_header {
+    position: absolute;
+  }
+
+  .nav_container {
+    display: grid;
+    grid-template-columns: 18vw auto;
+    height: 100%;
+
+    .logo {
+      width: 12vw;
+
+      img {
+        width: 200px;
+        height: auto;
+        transition: 0.25s all linear;
+      }
+    }
+
+    .links_container {
+      align-self: end;
+
+      ul {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 0px;
+
+        .cancel_ticket_top_strip {
+          padding: 5px 14px;
+          height: 40px;
+          /* width: 136px; */
+          background-color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 20px;
+          border-radius: 30px;
+          color: #000;
+
+          .cancel_ticket_top_strip_inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              height: 20px;
+              width: auto;
+              margin-right: 10px;
+            }
+
+            span {
+              margin-top: 1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

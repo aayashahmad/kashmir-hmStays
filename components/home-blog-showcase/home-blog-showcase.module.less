@@ -1,0 +1,400 @@
+.explore_parent {
+  padding: 12px;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 80px;
+
+  @media screen and (max-width: 768px) {
+    width: 90vw;
+  }
+
+  .explore_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .explore_head_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      font-size: 15px;
+      color: #a19e9e;
+
+      .explore_t {
+        color: #111;
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+
+    .explore_head_button {
+      button {
+        height: 30px;
+        width: 120px;
+        background-color: #1f2c4b;
+        color: var(--secondary-color);
+        border: none;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .explore_cards {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 40px;
+    padding: 25px 0px;
+
+    .explore_left_cards {
+      .explore_overlay_image {
+        position: relative;
+        height: 430px;
+        overflow: hidden;
+        border-radius: 10px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+        }
+
+        .overlay_text {
+          position: absolute;
+          top: 0;
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column;
+          padding: 24px 20px;
+          font-size: 16px;
+          color: #fff;
+          gap: 10px;
+          padding-bottom: 80px;
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+          background-color: rgba(0, 0, 0, 0.4);
+          backdrop-filter: saturate(140%) blur(2px);
+          -webkit-backdrop-filter: saturate(180%) blur(2px);
+
+          span,
+          p,
+          strong {
+            color: #fff !important;
+            text-align: justify;
+          }
+
+          .overlay_text_one {
+            font-size: 17px;
+            font-weight: 500;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+          }
+          .first_date_time_wrapper {
+            font-weight: 500;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 1;
+          }
+
+          .overlay_text_two {
+            font-weight: 800;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .explore_right_cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      color: #111;
+      height: 100%;
+
+      .explore_inner_right_cards {
+        width: 100%;
+
+        .explore_right_cards_img {
+          width: 100%;
+
+          img {
+            width: 100%;
+            border-radius: 10px;
+            height: 220px;
+            object-fit: cover;
+          }
+        }
+
+        .explore_right_cards_text {
+          font-size: 14px;
+          padding: 10px 5px;
+        }
+
+        .explore_right_cards_boldtext {
+          font-size: 17px;
+          font-weight: 700;
+          padding: 2px 5px;
+          // min-height: 70px;
+          height: fit-content;
+          @media screen and (min-width: 1500px) {
+            // min-height: 80px;
+          }
+          @media (min-width: 567px) and (max-width: 767px) {
+            // min-height: 90px !important;
+          }
+        }
+
+        .explore_right_cards_time {
+          padding: 5px 5px;
+          font-size: 13px;
+        }
+
+        .explore_right_cards_dec {
+          padding: 2px 5px 0px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+// media
+
+@media screen and (max-width: 1266px) {
+  .explore_parent {
+    .explore_cards {
+      padding: 30px 0px;
+
+      .explore_left_cards {
+        .explore_overlay_image {
+          position: relative;
+          height: 420px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+
+          .overlay_text {
+            font-size: 13px;
+
+            .overlay_text_one {
+              font-size: 16px;
+              font-weight: 400;
+            }
+
+            .overlay_text_two {
+              font-weight: 600;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      .explore_right_cards {
+        .explore_inner_right_cards {
+          .explore_right_cards_img {
+            width: auto;
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .explore_right_cards_boldtext {
+    font-size: 18px !important;
+    min-height: 90px !important;
+  }
+
+  .explore_right_cards_dec {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .explore_parent {
+    .explore_cards {
+      padding: 30px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+
+  .explore_right_cards_boldtext {
+    font-size: 18px !important;
+    min-height: 110px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .explore_parent {
+    padding: 10px 0;
+
+    .explore_head {
+      .explore_head_text {
+        font-size: 12px;
+        gap: 5px;
+      }
+    }
+
+    .explore_cards {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .explore_left_cards {
+        .explore_overlay_image {
+          height: 300px;
+
+          .overlay_text {
+            font-size: 14px;
+
+            .overlay_text_two {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      .explore_right_cards {
+        .explore_inner_right_cards {
+          .explore_right_cards_text {
+            font-size: 10px;
+          }
+
+          .explore_right_cards_boldtext {
+            font-size: 18px !important;
+            min-height: 80px;
+          }
+
+          .explore_right_cards_time {
+            font-size: 14px;
+          }
+
+          .explore_right_cards_dec {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 567px) {
+  .explore_right_cards {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .explore_right_cards_boldtext {
+    min-height: 20px !important;
+  }
+
+  .explore_right_cards_time {
+    font-size: 10px;
+  }
+
+  .explore_right_cards_dec {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .explore_parent {
+    padding: 10px 0;
+
+    .explore_head {
+      .explore_head_text {
+        font-size: 12px;
+        gap: 4px;
+
+        .explore_t {
+          font-size: 12px;
+        }
+      }
+
+      .explore_head_button {
+        button {
+          height: 15px;
+          width: 70px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .explore_cards {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .explore_left_cards {
+        .explore_overlay_image {
+          height: 250px;
+          border-radius: 20px;
+
+          .overlay_text {
+            padding-top: 160px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 12px;
+
+            .overlay_text_one {
+              font-size: 10px;
+            }
+
+            .overlay_text_two {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+
+      .explore_right_cards {
+        .explore_inner_right_cards {
+          .explore_right_cards_text {
+            font-size: 12px;
+          }
+
+          .explore_right_cards_boldtext {
+            font-size: 10px;
+          }
+
+          .explore_right_cards_time {
+            font-size: 12px;
+          }
+
+          .explore_right_cards_dec {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.date_time_wrapper {
+  font-size: 12px;
+  padding: 10px 0px;
+  padding-bottom: 0px;
+  opacity: 0.6;
+
+  svg {
+    font-size: 18px;
+    color: #f46725;
+    margin: 0px 2px 6px 0px;
+  }
+}

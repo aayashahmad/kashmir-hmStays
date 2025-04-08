@@ -1,0 +1,54 @@
+//HERO_TEXT STYLING START
+.body_text {
+    border-bottom: 1px solid;
+    padding: 80px 0;
+    @media screen and (max-width:640px) {
+        padding: 20px 0;
+        
+    }
+
+
+    .text_image {
+        margin: auto;
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+
+            .big_text {
+                font-size: 50px;
+                font-weight: bold;
+                @media screen and (max-width:640px) {
+                    font-size: 40px;
+                }
+            }
+
+            .small_text {
+                display: flex;
+                flex-direction: column;
+                font-size: 30px;
+                @media screen and (max-width:640px) {
+                    font-size: 20px;
+                    
+                }
+            }
+
+            button {
+                height: 50px;
+                width: 220px;
+                border: none;
+                color: #fff;
+                background-color: #111;
+                border-radius: 20px;
+                font-size: 20px;
+            }
+
+            button:hover {
+                background-color: #433c3c;
+                cursor: pointer;
+            }
+        }
+    }
+}

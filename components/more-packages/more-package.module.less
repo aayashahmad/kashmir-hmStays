@@ -1,0 +1,13 @@
+.package_wrapper_parent {
+  margin: 70px 0;
+
+  .package_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    @media screen and (max-width: 1240px) {
+      grid-template-columns: repeat(1, 1fr);
+      position: relative;
+    }
+  }
+}

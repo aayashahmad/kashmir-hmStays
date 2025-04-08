@@ -1,0 +1,146 @@
+.home_services_main {
+    margin-bottom: 30px;
+
+
+
+    .home_services_head {
+        align-items: center;
+        margin-left: 0px;
+
+        img {
+            width: 80px;
+        }
+
+        .home_services_text {
+            font-size: 30px;
+            font-weight: bold;
+            
+
+            .mleft_5 {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .home_services_body {
+        display: flex;
+        margin-top: 40px;
+
+
+
+        .home_destination_item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+            transition: 300ms ease-in-out all;
+            margin: 0 5px;
+            min-height: 444px;
+
+
+            .home_destination_img {
+                width: 96%;
+                margin: auto;
+                overflow: hidden;
+                padding-bottom: 8px;
+
+
+                img {
+                    width: 100%;
+                    height: 40vh;
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+
+                .title {
+                    font-size: 0.95em;
+                    padding: 12px 0;
+                    height: 3.4rem;
+                }
+
+                .offer {
+                    color: var(--primary-color);
+                    background-color: var(--secondary-color);
+                    font-size: 0.6em;
+                    padding: 5px 8px;
+                    border-radius: 10px;
+                    margin-bottom: 5px;
+                }
+
+
+
+                .durate {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 5px 5px 0 0;
+                    font-size: 0.9em;
+                }
+
+                .price {
+                    padding: 8px 0;
+                    font-size: 0.8em;
+                    font-weight: 600;
+                }
+
+                .icons {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 10px;
+                    margin: 5px 0;
+                    font-weight: 600;
+                    font-size: 0.9em;
+
+                    .callIcon {
+                        border: 1px solid var(--primary-color);
+                        border-radius: 6px;
+                        color: var(--primary-color);
+                        padding: 10px 40px;
+                    }
+
+                    .requestIcon {
+                        border-radius: 6px;
+                        color: var(--white-color);
+                        padding: 10px 20px;
+                        background-color: var(--primary-color);
+                        cursor: pointer;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+
+//***************************************tour packages media querie*********************************************
+
+@media screen and (max-width:640px) {
+    .home_services_main {
+        .home_services_head {
+            .home_services_text{
+                font-size: 23px;
+            }
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width:436px) {
+    .home_services_main {
+        .home_services_head {
+            .home_services_text{
+                font-size: 15px;
+            }
+            span{
+                font-size: 9px;
+            }
+        }
+    }
+
+}

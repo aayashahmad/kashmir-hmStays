@@ -1,0 +1,230 @@
+.home_services_main {
+  margin-top: 75px;
+
+  .home_services_head {
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+
+    img {
+      width: 30px;
+      margin-right: 7px;
+    }
+
+    .home_services_text {
+      color: #111;
+      font-size: 24px;
+
+      .mleft_5 {
+        margin-left: 5px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .home_services_body {
+    display: flex;
+    margin-top: 40px;
+
+    .home_destination_item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 25px;
+      height: 100%;
+      margin-top: 30px;
+      transition: 300ms ease-in-out all;
+
+      .home_destination_img {
+        width: 96%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+
+        img {
+          width: 100%;
+          height: 28vw;
+          object-fit: cover;
+        }
+
+
+        .best_seller {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background-color: var(--primary-color);
+          color: var(--light-color);
+          padding: 5px 10px;
+          border-radius: 20px;
+
+          .best_seller_text {
+            font-size: 10pt;
+          }
+        }
+      }
+
+      .icon,
+      .icon_hover {
+        position: absolute;
+        width: 24%;
+        right: 10px;
+        top: -160px;
+        opacity: 1;
+        transition: 300ms ease-in-out all;
+      }
+
+      .icon_hover {
+        opacity: 0;
+      }
+
+      .title {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        color: var(--light-color);
+        padding: 20px;
+        border-radius: 0 0 25px 25px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        transition: 300ms ease-in-out all;
+
+        
+        .title_container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .text_hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border-radius: 0 0 25px 25px;
+        position: absolute;
+        padding: 20px;
+        width: 100%;
+        bottom: -150px;
+        transition: 300ms ease-in-out all;
+
+        .title_hover {
+          margin-bottom: 10px;
+          font-size: 12.5pt;
+        }
+      }
+    }
+
+    .home_destination_item:hover {
+      cursor: pointer;
+      margin-top: 0px;
+
+      .icon_hover {
+        opacity: 1;
+      }
+
+      .icon {
+        opacity: 0;
+      }
+
+      .text_hover {
+        bottom: 0px;
+      }
+
+      .title {
+        bottom: -40px;
+      }
+
+      .home_destination_img .on_hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .date_and_time {
+    color: var(--light-primary-color);
+  }
+}
+
+
+//*********************************** home destination mobile stylie *******************************************************
+
+
+@media screen and (max-width:640px) {
+  .home_services_main {
+    .home_services_body {
+      .home_destination_item {
+        .home_destination_img {
+          img {
+            height: 55vh !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width:436px) {
+  .home_services_main {
+
+    .home_services_body {
+      .home_destination_item {
+        .home_destination_img {
+          .best_seller{
+            right: 40px !important;
+          }
+          img {
+            width: 90%;
+            height: 40vh !important;
+            border-radius: 20px;
+          }
+        }
+
+        .title {
+          width: 90%;
+
+        }
+
+        .text_hover {
+          width: 90%;
+
+          .title_hover {
+            margin-bottom: 10px;
+            font-size: 12.5pt;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  .home_services_main {
+
+    .home_services_body {
+      .home_destination_item {
+        .home_destination_img {
+          img {
+            width: 100%;
+            height: 50vh !important;
+            border-radius: 20px;
+          }
+        }
+
+        .title {
+          width: 100%;
+
+        }
+
+        .text_hover {
+          width: 100%;
+
+          .title_hover {
+            margin-bottom: 10px;
+            font-size: 12.5pt;
+          }
+        }
+      }
+    }
+  }
+}

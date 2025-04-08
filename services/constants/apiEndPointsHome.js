@@ -1,0 +1,11 @@
+export const CATEGORIES = "categories";
+export const LATEST_PRODUCTS = "products/latest";
+export const CATEGORY_PRODUCTS = "categories/products/";
+export const BRANDS = "brands";
+export const BANNERS = "banners";
+export const BLOGS = "blogs";
+export const PACKAGES = "packages";
+export const AUTH = "auth";
+export const METADATA = "metadata";
+export const CUSTOM_PACKAGES = "customPackages";
+export const HOTELS_REVIEW = "hotels/review"

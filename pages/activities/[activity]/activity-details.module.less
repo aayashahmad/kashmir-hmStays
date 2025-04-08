@@ -1,0 +1,55 @@
+.activity_wrapper {
+    border: 1px dotted #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 200px 0;
+    position: relative;
+    padding: 30px;
+    padding-top: 100px;
+    user-select: none;
+
+
+    .activity_image {
+        width: 260px;
+        height: 260px;
+        object-fit: cover;
+        position: absolute;
+        top: -130px;
+        left: calc(50% - 130px);
+        border-radius: 200px;
+    }
+}
+
+// media querie
+
+@media screen and (max-width:1024px) {
+    .activity_wrapper {
+        .activity_image {
+            width: 230px;
+            height: 230px;
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+    .activity_wrapper {
+        .activity_image {
+            width: 200px;
+            height: 200px;
+            top: -100px;
+            left: calc(50% - 100px);
+        }
+    }
+}
+
+
+@media screen and (max-width:520px) {
+    .activity_wrapper {
+        .activity_image {
+            width: 130px;
+            height: 130px;
+            top: -60px;
+            left: calc(50% - 60px);
+        }
+    }
+}

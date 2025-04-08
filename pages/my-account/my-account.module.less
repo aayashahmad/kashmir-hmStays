@@ -1,0 +1,155 @@
+.my_account_root {
+  position: relative;
+
+  .rest_account_section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+
+    .main_wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 8px;
+
+      .bookings_container {
+        display: flex;
+        width: 100%;
+
+        .left_section {
+          width: 25%;
+          height: fit-content;
+          box-shadow: 1px 4px 8px 4px rgba(235, 235, 235, 1);
+          position: sticky;
+          top: 17px;
+
+          .section_item {
+            padding: 18px;
+            .menu_item {
+              padding: 15px;
+              background-color: var(--light-color);
+              border-radius: 0 4px 4px 0;
+              color: var(--primary-color);
+
+              &.active_item {
+                border-left: 5px solid var(--secondary-color);
+                background-color: var(--primary-color);
+                color: #fff;
+              }
+
+              &:hover {
+                cursor: pointer;
+              }
+            }
+
+            .menu_item2 {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my_account_root {
+    .rest_account_section {
+      .main_wrapper {
+        .bookings_container {
+          display: block;
+
+          .left_section {
+            width: 100%;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+            padding: 0;
+            top: 0px;
+          }
+
+          .right_section {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0;
+
+            .bookings_wrapper {
+              width: 100%;
+            }
+          }
+
+          .section_item {
+            color: #fff;
+
+            .menu_item {
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .my_account_root {
+    .rest_account_section {
+      .main_wrapper {
+        .bookings_container {
+          .left_section {
+            box-shadow: unset;
+
+            .sections_wrapper {
+              display: flex;
+              justify-content: center;
+              width: 80%;
+              margin: auto;
+              background-color: var(--secondary-color);
+              border-radius: 20px;
+
+              .section_item {
+                padding: 0;
+                width: 100%;
+
+                .menu_item {
+                  display: none;
+                }
+
+                .sec_menu_item {
+                  .menu_item2 {
+                    display: inherit;
+                    padding: 10px;
+                    text-align: center;
+                  }
+
+                  .active_item3 {
+                    background-color: var(--primary-color);
+                    color: #fff;
+                    border-radius: 20px;
+                    cursor: pointer;
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .my_account_root {
+    .rest_account_section {
+      .main_wrapper {
+        .bookings_container {
+          .left_section {
+            .sections_wrapper {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

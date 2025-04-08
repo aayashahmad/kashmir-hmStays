@@ -1,0 +1,72 @@
+.main_nav_container {
+  position: sticky;
+  width: 100%;
+  z-index: 999;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 0px 8px 1px #ddd;
+  background-color: var(--primary-color);
+  padding-top: 14px;
+  top: 0;
+  padding-bottom: 12px;
+}
+.main_nav_container .nav_child_container {
+  max-height: 100px;
+}
+.main_nav_container .nav_child_hidden {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+.main_nav_container.main_nav_container_fixed_header {
+  position: fixed;
+}
+.main_nav_container.main_nav_container_absolute_header {
+  position: absolute;
+}
+.main_nav_container .nav_container {
+  display: grid;
+  grid-template-columns: 18vw auto;
+  height: 100%;
+}
+.main_nav_container .nav_container .logo {
+  width: 12vw;
+}
+.main_nav_container .nav_container .logo img {
+  width: 100%;
+  height: auto;
+  transition: 0.25s all linear;
+}
+.main_nav_container .nav_container .links_container {
+  align-self: end;
+}
+.main_nav_container .nav_container .links_container ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.main_nav_container .nav_container .links_container ul .cancel_ticket_top_strip {
+  padding: 5px 14px;
+  height: 40px;
+  /* width: 136px; */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  border-radius: 30px;
+  color: #000;
+}
+.main_nav_container .nav_container .links_container ul .cancel_ticket_top_strip .cancel_ticket_top_strip_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_nav_container .nav_container .links_container ul .cancel_ticket_top_strip .cancel_ticket_top_strip_inner img {
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}
+.main_nav_container .nav_container .links_container ul .cancel_ticket_top_strip .cancel_ticket_top_strip_inner span {
+  margin-top: 1px;
+}

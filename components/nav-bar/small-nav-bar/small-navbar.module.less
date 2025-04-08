@@ -1,0 +1,290 @@
+.small_navbar_parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  z-index: 1000;
+  padding: 0px;
+  height: 64px;
+  box-shadow: inset 0 -1px 0 0 var(--accents-2);
+  transform: translateZ(0);
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  border-bottom: 0.5px solid #ccc;
+  background-color: #ffffff;
+
+  .small_navbar_logo_text_container {
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .small_navbar_logo_text_container {
+      width: 100%;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .small_navbar_logo {
+        width: 200px;
+        height: 40px;
+        display: block;
+        background-position: 10 10;
+        background: url(/images/logo-sprite.png) 0 -182px;
+
+      }
+
+      .small_navbar_text {
+        color: #111;
+
+        .noselect {
+          font-weight: 600;
+          cursor: pointer;
+          -webkit-touch-callout: none;
+
+          -webkit-user-select: none;
+
+          -khtml-user-select: none;
+
+          -moz-user-select: none;
+
+          -ms-user-select: none;
+
+          user-select: none;
+
+        }
+      }
+    }
+
+    .small_navbar_logo {
+      width: 200px;
+      height: 40px;
+      display: block;
+      background-position: 10 10;
+      background: url(/images/logo-sprite.png) 0 -182px;
+    }
+
+    .small_navbar_text {
+      color: #111;
+
+      .noselect {
+        font-weight: 600;
+        cursor: pointer;
+        -webkit-touch-callout: none;
+
+        -webkit-user-select: none;
+
+        -khtml-user-select: none;
+
+        -moz-user-select: none;
+
+        -ms-user-select: none;
+
+        user-select: none;
+      }
+    }
+  }
+}
+
+.SmallNavbar_login {
+  display: flex;
+  gap: 10px;
+
+  .SmallNavbar_login_image {
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      border-radius: 17px 0 0 17px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .SmallNavbar_loginfeild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 30px 20px;
+
+    .SmallNavbar_login_body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      padding: 30px 20px;
+
+      .popup_parent {
+        padding: 10px 0;
+
+        span {
+          font-size: 18px;
+          color: #111;
+          font-weight: 600;
+        }
+
+        .popup {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          gap: 10px;
+          margin-top: 10px;
+          justify-content: center;
+
+          input {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            color: #111;
+            height: 50px;
+            width: 50px;
+            border: 1px solid #1f2c4b;
+            border-radius: 7px;
+          }
+        }
+
+        button {
+          padding: 6px 30px;
+          border: none;
+          color: #ccff5f;
+          background-color: #1f2c4b;
+          cursor: pointer;
+          border-radius: 7px;
+          font-size: 12px;
+          font-weight: 500;
+        }
+
+        button:hover {
+          background-color: #536083;
+        }
+
+        .resend {
+          color: #1f2c4b;
+          font-size: 12px;
+          font-weight: 600;
+          width: 200px;
+        }
+
+        .resend_otp_wrapper {
+          display: flex;
+          align-items: center;
+          margin-top: 20px;
+        }
+      }
+
+      .SmallNavbar_login_htext {
+        font-size: 21px;
+        color: #111;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+
+      .SmallNavbar_login_input {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+
+        input {
+          border: 1px solid #1f2c4b;
+          background: transparent;
+          border-radius: 5px;
+          padding: 10px 12px;
+          width: 100%;
+        }
+      }
+
+      .SmallNavbar_login_forgot_text {
+        color: #1f2c4b;
+        font-weight: 600;
+        font-size: 13px;
+        width: 100%;
+        text-align: end;
+
+        span:hover {
+          cursor: pointer;
+          color: #ccff5f;
+        }
+      }
+
+      .SmallNavbar_login_signup {
+        font-size: 14px;
+        color: #5f5f5f;
+        font-weight: 500;
+
+        .SmallNavbar_login_signup_sp {
+          font-weight: 600;
+        }
+
+        .SmallNavbar_login_signup_sp:hover {
+          cursor: pointer;
+          color: #ccff5f;
+        }
+      }
+
+      .SmallNavbar_login_button {
+        width: 100%;
+
+        button {
+          padding: 10px 60px;
+          border: none;
+          color: #ccff5f;
+          background-color: #1f2c4b;
+          cursor: pointer;
+          border-radius: 7px;
+          font-size: 14px;
+          font-weight: 700;
+          width: 100%;
+        }
+
+        button:hover {
+          color: #1f2c4b;
+          background-color: #ccff5f;
+        }
+      }
+
+      .SmallNavbar_login_dec {
+        font-size: 14px;
+        font-weight: 500;
+        color: #111;
+      }
+
+    }
+  }
+}
+
+//********************************************small navbar media querie********************************************
+
+// *********small login media querie start********
+@media screen and (max-width: 920px) {
+  .SmallNavbar_login {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .SmallNavbar_login {
+    display: flex;
+    justify-content: center;
+
+    .SmallNavbar_login_image {
+      display: none;
+    }
+  }
+}
+
+// ********** small navbar media queries start ********
+@media screen and (max-width: 640px) {
+  .small_navbar_parent {
+    display: none;
+  }
+}
+
+// ********** small navbar media queries end ********
+
+// *********small login media querie end********

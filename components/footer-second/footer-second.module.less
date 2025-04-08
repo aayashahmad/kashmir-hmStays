@@ -1,0 +1,197 @@
+@mobile-breakpoint: 640px;
+@footer-height-desktop: 460px;
+@footer-height-mobile: 700px;
+@primary-font-size: 16px;
+@secondary-font-size: 14px;
+
+.footersecond_parent {
+  background-color: var(--secondary-color);
+  height: @footer-height-desktop;
+  width: auto;
+  border-radius: 20px 20px 0 0;
+  margin-top: 70px;
+  position: relative;
+  user-select: none !important;
+
+  @media screen and (max-width: @mobile-breakpoint) {
+    height: @footer-height-mobile;
+  }
+
+  .overlay {
+    width: 100%;
+    height: 50%;
+
+    @media screen and (max-width: @mobile-breakpoint) {
+      height: 70%;
+    }
+
+    .footersecond_overlay {
+      position: absolute;
+      background-color: var(--white-color);
+      width: 72vw;
+      top: -70px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 20px;
+      padding: 40px 40px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      box-shadow: 1px -5px 8px -7px #ccc;
+      color: #464647;
+
+      @media screen and (max-width: @mobile-breakpoint) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .footersecond_links {
+        @media screen and (max-width: @mobile-breakpoint) {
+          text-align: center;
+        }
+
+        .bolder_links {
+          font-size: @primary-font-size;
+          font-weight: 700;
+          cursor: pointer;
+        }
+
+        .links {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin-top: 10px;
+          font-size: @secondary-font-size;
+
+          .footer_item {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .bolder_links {
+              font-size: @primary-font-size;
+              font-weight: 700;
+              cursor: pointer;
+            }
+          }
+
+          span:hover {
+            color: var(--light-primary-color);
+            cursor: pointer;
+          }
+
+          .address:hover {
+            color: unset;
+          }
+        }
+      }
+    }
+  }
+
+  .white_line_parent {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .middle_white_line {
+      width: 70%;
+      height: 1px;
+      background: linear-gradient(to right, transparent, white, transparent);
+      margin-top: 20px;
+      position: relative;
+
+      @media screen and (max-width: @mobile-breakpoint) {
+        width: 90%;
+        margin-top: 0px;
+      }
+
+      .footer_image {
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width: @mobile-breakpoint) {
+          bottom: -40px;
+        }
+        @media screen and (max-width: 440px) {
+          bottom: -30px;
+        }
+
+        img {
+          background-color: var(--secondary-color);
+          height: 80px;
+          width: auto;
+
+          @media screen and (max-width: @mobile-breakpoint) {
+            width: 50%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .icons_parent {
+    .footer_icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-top: 20px;
+
+      @media screen and (max-width: 440px) {
+        gap: 20px;
+      }
+
+      svg {
+        height: 30px;
+        width: 30px;
+        color: #ffffff;
+      }
+
+      .link1:hover {
+        color: #316ff6;
+      }
+
+      .link2:hover {
+        border-radius: 10px;
+        background: linear-gradient(
+          45deg,
+          #f09433 0%,
+          #e6683c 25%,
+          #dc2743 50%,
+          #cc2366 75%,
+          #bc1888 100%
+        );
+      }
+
+      .link3:hover {
+        color: #1da1f2;
+      }
+
+      .link4:hover {
+        color: #0077b5;
+      }
+
+      .link5:hover {
+        color: #ff0000;
+      }
+    }
+  }
+
+  .about_footer {
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: @primary-font-size;
+    font-weight: 500;
+    text-align: center;
+  }
+}

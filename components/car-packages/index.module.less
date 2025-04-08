@@ -1,0 +1,153 @@
+.hotels_parent_body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
+  margin: 50px 0;
+  @media screen and (max-width: 920px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 640px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hotels_inner_parent_body {
+    margin-bottom: 60px;
+    position: relative;
+    background-color: #fff;
+    .hotels_inner_parent_body_img {
+      min-height: 35vh;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .book_now {
+      padding: 10px 20px;
+      background-color: var(--primary-color);
+      color: #ffffff;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin: 20px 15px;
+      font-size: 16px;
+      svg {
+        font-size: 22px;
+        color: rgb(255, 251, 0);
+        margin-bottom: 5px;
+      }
+    }
+
+    .hotels_inner_parent_body_stars {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: 20px;
+      width: 100%;
+      min-height: 90px;
+      row-gap: 18px;
+      padding: 0px 15px;
+
+      .stars_one {
+        color: #464647;
+        font-size: 18px;
+        min-height: 50px;
+      }
+      .stars_two {
+        font-size: 14px;
+        max-width: 250px;
+        word-wrap: break-word;
+        min-height: 100px;
+      }
+
+      .stars_three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #19ad6f;
+        font-size: 20px;
+
+        .rating_icon {
+          height: 20px;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+
+    .hotels_inner_parent_body_dec {
+      padding-top: 10px;
+      color: #202020;
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    .hotels_inner_parent_body_price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #202020;
+      font-size: 20px;
+      font-weight: 600;
+      width: 100%;
+      margin: 6px 0;
+      padding: 0px 15px;
+
+      svg {
+        font-size: 15px;
+        margin-bottom: 4px;
+      }
+
+      span {
+        font-weight: 600;
+        font-size: 12px;
+      }
+
+      @media screen and (max-width: 1024px) {
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      @media screen and (max-width: 1024px) {
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+
+    .activities_container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 15px;
+
+      svg {
+        font-size: 18px;
+        margin-bottom: 2px;
+      }
+      span:nth-child(2) svg {
+        transform: rotateY(180deg);
+      }
+    }
+
+    .discount {
+      position: absolute;
+      top: 0;
+      margin-top: 10px;
+      background: linear-gradient(90deg, #eb1e24, #aa0004);
+      padding: 0 8px;
+      border-radius: 0px 10px 10px 0px;
+      svg {
+        font-size: 20px;
+        padding-bottom: 5px;
+      }
+      span {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,164 @@
+.GroupTour_parent {
+    padding: 50px 0;
+    position: relative;
+
+
+    .GroupTour_image {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+    }
+
+    .GroupTour_overly_text {
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        height: 100%;
+        padding: 0 35px;
+
+        .GroupTour_overly_text_one {
+            color: #FFFFFF;
+            font-size: 23px;
+            font-weight: 600;
+        }
+
+        .GroupTour_overly_text_two {
+            font-size: 13px;
+            font-weight: 400;
+            color: #FFFFFF;
+            padding-bottom: 10px;
+        }
+
+        .GroupTour_overly_text_three {
+            button {
+                padding: 10px 24px;
+                border-radius: 7px;
+                background-color: #FFFFFF;
+                color: #F47625;
+                font-size: 14px;
+                font-weight: 500;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+
+//************************************dubai faqs media querie*******************************************************
+
+
+@media screen and (max-width:1140px) {
+    .GroupTour_parent {
+        .GroupTour_overly_text {
+            padding: 0 10px;
+
+            .GroupTour_overly_text_one {
+                font-size: 14px;
+            }
+
+            .GroupTour_overly_text_two {
+                font-size: 10px;
+                padding-bottom: 5px;
+            }
+
+            .GroupTour_overly_text_three {
+                button {
+                    font-size: 8px;
+                    padding: 7px 20px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:920px) {
+    .GroupTour_parent {
+        .GroupTour_overly_text {
+            padding: 0 10px;
+
+            .GroupTour_overly_text_one {
+                font-size: 14px;
+            }
+
+            .GroupTour_overly_text_two {
+                font-size: 10px;
+                padding-bottom: 5px;
+            }
+
+            .GroupTour_overly_text_three {
+                button {
+                    font-size: 8px;
+                    padding: 7px 20px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .GroupTour_parent {
+        padding: 30px 0;
+
+        .GroupTour_overly_text {
+            padding: 0 10px;
+
+            .GroupTour_overly_text_one {
+                font-size: 10px;
+            }
+
+            .GroupTour_overly_text_two {
+                font-size: 7px;
+                padding-top: 7px;
+            }
+
+            .GroupTour_overly_text_three {
+                button {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:436px) {
+    .GroupTour_parent {
+        padding: 20px 0;
+
+        .GroupTour_image {
+    
+            img {
+                height: 20vh;
+                object-fit: cover;
+            }
+    
+        }
+
+        .GroupTour_overly_text {
+
+            .GroupTour_overly_text_one {
+                font-size: 7px;
+            }
+
+            .GroupTour_overly_text_two {
+                font-size: 5px;
+                padding-top: 5px;
+            }
+        }
+    }
+
+}

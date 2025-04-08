@@ -1,0 +1,174 @@
+.activitiesaashmiri_parent {
+    width: auto;
+    height: 320px;
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .activitiesaashmiri_overly {
+        padding-top: 40px;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-direction: column;
+
+        .activitiesaashmiri_overly_head {
+            font-size: 50px;
+            color: rgb(71, 68, 68);
+
+            .activitiesaashmiri_overly_head_sp {
+                color: #111;
+                font-weight: 700;
+                border-bottom: 2px solid var(--primary-color);
+
+            }
+        }
+
+        .activitiesaashmiri_overly_text {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 90px;
+
+            .activitiesaashmiri_overly_text1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .h1 {
+                    font-size: 55px;
+                    color: #111;
+                }
+
+                .b1 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+// ********************activities media querie*******************************8
+
+@media screen and (max-width:1024px) {
+
+    .activitiesaashmiri_parent {
+        .activitiesaashmiri_overly {
+            .activitiesaashmiri_overly_head {
+                font-size: 35px;
+            }
+
+            .activitiesaashmiri_overly_text {
+                gap: 50px;
+                .activitiesaashmiri_overly_text1 {
+                    .h1 {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:920px) {
+
+    .activitiesaashmiri_parent {
+        height: 230px;
+        .activitiesaashmiri_overly {
+            .activitiesaashmiri_overly_head {
+                font-size: 30px;
+            }
+
+            .activitiesaashmiri_overly_text {
+                gap: 10px;
+                .activitiesaashmiri_overly_text1 {
+                    .h1 {
+                        font-size: 20px;
+                    }
+                    .b1{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    .activitiesaashmiri_parent {
+        height: 220px;
+        .activitiesaashmiri_overly {
+            .activitiesaashmiri_overly_head {
+                font-size: 20px;
+            }
+
+            .activitiesaashmiri_overly_text {
+                gap: 5px;
+                .activitiesaashmiri_overly_text1 {
+                    .h1 {
+                        font-size: 18px;
+                    }
+                    .b1{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:436px) {
+
+    .activitiesaashmiri_parent {
+        height: 200px;
+        .activitiesaashmiri_overly {
+            .activitiesaashmiri_overly_head {
+                font-size: 18px;
+            }
+
+            .activitiesaashmiri_overly_text {
+                gap:5px;
+                .activitiesaashmiri_overly_text1 {
+                    .h1 {
+                        font-size: 14px;
+                    }
+                    .b1{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .activitiesaashmiri_parent {
+        height: 170px;
+        .activitiesaashmiri_overly {
+            .activitiesaashmiri_overly_head {
+                font-size: 16px;
+            }
+
+            .activitiesaashmiri_overly_text {
+                gap:5px;
+                .activitiesaashmiri_overly_text1 {
+                    .h1 {
+                        font-size: 11px;
+                    }
+                    .b1{
+                        font-size: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

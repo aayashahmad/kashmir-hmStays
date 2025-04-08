@@ -1,0 +1,3402 @@
+-------------------------
+Deploy started at Fri Jul  5 07:35:48 PM UTC 2024
+Deploying branch main to production...
+Already on 'main'
+Your branch is ahead of 'origin/main' by 12 commits.
+  (use "git push" to publish your local commits)
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+/usr/bin/env: ‘node’: No such file or directory
+npm install failed
+-------------------------
+Deploy started at Fri Jul  5 07:50:34 PM UTC 2024
+Deploying branch main to production...
+Already on 'main'
+Your branch is ahead of 'origin/main' by 13 commits.
+  (use "git push" to publish your local commits)
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+npm error code ERESOLVE
+npm error ERESOLVE could not resolve
+npm error
+npm error While resolving: @material-ui/core@4.12.4
+npm error Found: react@18.2.0
+npm error node_modules/react
+npm error   react@"18.2.0" from the root project
+npm error   peer react@">=16.8.0" from @emotion/react@11.11.3
+npm error   node_modules/@emotion/react
+npm error     @emotion/react@"^11.11.3" from the root project
+npm error     peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.11.0
+npm error     node_modules/@emotion/styled
+npm error       @emotion/styled@"^11.11.0" from the root project
+npm error       3 more (@mui/material, @mui/styled-engine, @mui/system)
+npm error     3 more (@mui/material, @mui/styled-engine, @mui/system)
+npm error   32 more (@emotion/styled, ...)
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm error node_modules/@material-ui/core
+npm error   @material-ui/core@"^4.12.4" from the root project
+npm error
+npm error Conflicting peer dependency: react@17.0.2
+npm error node_modules/react
+npm error   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm error   node_modules/@material-ui/core
+npm error     @material-ui/core@"^4.12.4" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error /root/.npm/_logs/2024-07-05T19_50_34_916Z-eresolve-report.txt
+
+npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-05T19_50_34_916Z-debug-0.log
+npm install failed
+-------------------------
+Deploy started at Fri Jul  5 07:52:42 PM UTC 2024
+Deploying branch main to production...
+Already on 'main'
+Your branch is ahead of 'origin/main' by 14 commits.
+  (use "git push" to publish your local commits)
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @zeit/next-less@1.0.1
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn node_modules/@zeit/next-less
+npm warn   @zeit/next-less@"^1.0.1" from the root project
+npm warn
+npm warn Conflicting peer dependency: less@2.7.3
+npm warn node_modules/less
+npm warn   peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn     @zeit/next-less@"^1.0.1" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: less-loader@4.1.0
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn node_modules/@zeit/next-less/node_modules/less-loader
+npm warn   less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn
+npm warn Conflicting peer dependency: less@3.13.1
+npm warn node_modules/less
+npm warn   peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn   node_modules/@zeit/next-less/node_modules/less-loader
+npm warn     less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn     node_modules/@zeit/next-less
+
+up to date, audited 737 packages in 10s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (11 moderate, 12 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Running npm run build...
+
+> kupos@0.1.0 build
+> next build
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/terms-and-conditions/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/about-us/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/hotels-packages/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/blogs-home-list/blogs-home-list.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+warn  - Compiled with warnings
+
+./components/blogs-home-list/blogs-home-list.module.less
+Warning
+
+(29:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/index.js
+
+./components/hotels-packages/index.module.less
+Warning
+
+(31:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./components/hotels-packages/index.module.less
+./components/hotels-packages/index.js
+
+./pages/about-us/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/about-us/index.module.less
+
+./pages/terms-and-conditions/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/terms-and-conditions/index.module.less
+
+info  - Collecting page data...
+-------------------------
+Deploy started at Fri Jul  5 07:53:51 PM UTC 2024
+Deploying branch main to production...
+Already on 'main'
+Your branch is ahead of 'origin/main' by 15 commits.
+  (use "git push" to publish your local commits)
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+info  - Generating static pages (0/69)
+react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+{ image: undefined }
+npm warn using --force Recommended protections disabled.
+null
+[]
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (17/69)
+{ image: undefined }
+{ image: undefined }
+null
+null
+[]
+[]
+element in fiocus null
+{ blog: null }
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (34/69)
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+info  - Generating static pages (51/69)
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ banners: [] }
+{ banners: [] }
+Tabs { tabs: [] }
+Tabs { tabs: [] }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+info  - Generating static pages (69/69)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ● /                                      9.69 kB         355 kB
+├   └ css/e0f2bbe1229c2b4b.css             1.46 kB
+├   /_app                                  0 B             306 kB
+├ ○ /_root                                 182 B           306 kB
+├ ○ /404                                   182 B           306 kB
+├ ● /about-us                              2.44 kB         324 kB
+├   └ css/1f88ce0e65229df9.css             3.46 kB
+├ ○ /activities                            1.77 kB         330 kB
+├   └ css/5d7ff66f4cba3462.css             1.91 kB
+├ ○ /activities/[activity]                 2.24 kB         330 kB
+├   └ css/c8cfdbc73cfefcb6.css             2.72 kB
+├ ○ /blogs                                 2.43 kB         324 kB
+├   └ css/a10a33fcd0e11cca.css             3.37 kB
+├ ○ /blogs/[blog-title]/[id]               4.1 kB          332 kB
+├   └ css/674afbfccf0c761c.css             2.42 kB
+├ ● /cars                                  2.47 kB         349 kB
+├   └ css/805dcd2bbfa3e577.css             691 B
+├ ● /cars-details                          5.04 kB         327 kB
+├   └ css/06937f085b7b5e68.css             2.66 kB
+├ ○ /contact-us                            999 B           323 kB
+├   └ css/3718caf768ab7317.css             2.53 kB
+├ ● /destinations                          3.27 kB         325 kB
+├   └ css/6d617ef5478eb20f.css             1.54 kB
+├ ● /destinations/[location]               3.62 kB         347 kB
+├   └ css/602d99f9974c09ba.css             1.05 kB
+├ ○ /destinations/[location]/tours         2.77 kB         346 kB
+├   └ css/a8da587484f40e39.css             898 B
+├ ● /hotel-details                         7.82 kB         330 kB
+├   └ css/df9638124a5552d6.css             3.97 kB
+├ ○ /Hotels                                1.71 kB         348 kB
+├   └ css/2fe3baf49be03a05.css             2.62 kB
+├ ● /index copy                            14 kB           353 kB
+├   └ css/89852f50f84d3296.css             3.45 kB
+├ ● /my-account                            3.15 kB         325 kB
+├   └ css/28c2a0f89f1fd8a0.css             3.65 kB
+├ ○ /others/member                         272 B           306 kB
+├ ○ /others/our                            1.56 kB         307 kB
+├ ○ /others/right                          274 B           306 kB
+├ ○ /others/sign                           275 B           306 kB
+├ ○ /others/started                        270 B           306 kB
+├ ● /package                               35.5 kB         364 kB
+├   └ css/f8e002f29310c3c3.css             4.15 kB
+├ ○ /privacy-policies                      5.67 kB         328 kB
+└ ○ /terms-and-conditions                  3.08 kB         325 kB
++ First Load JS shared by all              313 kB
+  ├ chunks/framework-36098b990598bc0c.js   45.4 kB
+  ├ chunks/main-5ad408a5eb6c76b9.js        27.5 kB
+  ├ chunks/pages/_app-1139d8b8a0622d8f.js  232 kB
+  ├ chunks/webpack-9fbb4d922a25fdc9.js     1.07 kB
+  └ css/5895a981221ae065.css               7.48 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+Restarting services...
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @zeit/next-less@1.0.1
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn node_modules/@zeit/next-less
+npm warn   @zeit/next-less@"^1.0.1" from the root project
+npm warn
+npm warn Conflicting peer dependency: less@2.7.3
+npm warn node_modules/less
+npm warn   peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn     @zeit/next-less@"^1.0.1" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: less-loader@4.1.0
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn node_modules/@zeit/next-less/node_modules/less-loader
+npm warn   less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn
+npm warn Conflicting peer dependency: less@3.13.1
+npm warn node_modules/less
+npm warn   peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn   node_modules/@zeit/next-less/node_modules/less-loader
+npm warn     less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn     node_modules/@zeit/next-less
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [kashmirnirvana.com](ids: [ 0 ])
+[PM2] [kashmirnirvana.com](0) ✓
+┌────┬─────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 1  │ admin.kashmirnirvana.com    │ default     │ 0.39.3  │ fork    │ 12735    │ 2D     │ 0    │ online    │ 0%       │ 62.2mb   │ root     │ disabled │
+│ 0  │ kashmirnirvana.com          │ default     │ 0.39.3  │ fork    │ 84478    │ 0s     │ 3    │ online    │ 0%       │ 13.9mb   │ root     │ disabled │
+└────┴─────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Deployment completed successfully
+
+up to date, audited 737 packages in 3s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (11 moderate, 12 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Running npm run build...
+
+> kupos@0.1.0 build
+> next build
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/terms-and-conditions/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/about-us/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/hotels-packages/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/blogs-home-list/blogs-home-list.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+warn  - Compiled with warnings
+
+./components/blogs-home-list/blogs-home-list.module.less
+Warning
+
+(29:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/index.js
+
+./components/hotels-packages/index.module.less
+Warning
+
+(31:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./components/hotels-packages/index.module.less
+./components/hotels-packages/index.js
+
+./pages/about-us/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/about-us/index.module.less
+
+./pages/terms-and-conditions/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/terms-and-conditions/index.module.less
+
+info  - Collecting page data...
+info  - Generating static pages (0/69)
+react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+{ image: undefined }
+null
+[]
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (17/69)
+{ image: undefined }
+{ image: undefined }
+null
+null
+[]
+[]
+element in fiocus null
+{ blog: null }
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (34/69)
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+info  - Generating static pages (51/69)
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ banners: [] }
+{ banners: [] }
+Tabs { tabs: [] }
+Tabs { tabs: [] }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+info  - Generating static pages (69/69)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ● /                                      9.69 kB         355 kB
+├   └ css/e0f2bbe1229c2b4b.css             1.46 kB
+├   /_app                                  0 B             306 kB
+├ ○ /_root                                 182 B           306 kB
+├ ○ /404                                   182 B           306 kB
+├ ● /about-us                              2.44 kB         324 kB
+├   └ css/1f88ce0e65229df9.css             3.46 kB
+├ ○ /activities                            1.77 kB         330 kB
+├   └ css/5d7ff66f4cba3462.css             1.91 kB
+├ ○ /activities/[activity]                 2.24 kB         330 kB
+├   └ css/c8cfdbc73cfefcb6.css             2.72 kB
+├ ○ /blogs                                 2.43 kB         324 kB
+├   └ css/a10a33fcd0e11cca.css             3.37 kB
+├ ○ /blogs/[blog-title]/[id]               4.1 kB          332 kB
+├   └ css/674afbfccf0c761c.css             2.42 kB
+├ ● /cars                                  2.47 kB         349 kB
+├   └ css/805dcd2bbfa3e577.css             691 B
+├ ● /cars-details                          5.04 kB         327 kB
+├   └ css/06937f085b7b5e68.css             2.66 kB
+├ ○ /contact-us                            999 B           323 kB
+├   └ css/3718caf768ab7317.css             2.53 kB
+├ ● /destinations                          3.27 kB         325 kB
+├   └ css/6d617ef5478eb20f.css             1.54 kB
+├ ● /destinations/[location]               3.62 kB         347 kB
+├   └ css/602d99f9974c09ba.css             1.05 kB
+├ ○ /destinations/[location]/tours         2.77 kB         346 kB
+├   └ css/a8da587484f40e39.css             898 B
+├ ● /hotel-details                         7.82 kB         330 kB
+├   └ css/df9638124a5552d6.css             3.97 kB
+├ ○ /Hotels                                1.71 kB         348 kB
+├   └ css/2fe3baf49be03a05.css             2.62 kB
+├ ● /index copy                            14 kB           353 kB
+├   └ css/89852f50f84d3296.css             3.45 kB
+├ ● /my-account                            3.15 kB         325 kB
+├   └ css/28c2a0f89f1fd8a0.css             3.65 kB
+├ ○ /others/member                         272 B           306 kB
+├ ○ /others/our                            1.56 kB         307 kB
+├ ○ /others/right                          274 B           306 kB
+├ ○ /others/sign                           275 B           306 kB
+├ ○ /others/started                        270 B           306 kB
+├ ● /package                               35.5 kB         364 kB
+├   └ css/f8e002f29310c3c3.css             4.15 kB
+├ ○ /privacy-policies                      5.67 kB         328 kB
+└ ○ /terms-and-conditions                  3.08 kB         325 kB
++ First Load JS shared by all              313 kB
+  ├ chunks/framework-36098b990598bc0c.js   45.4 kB
+  ├ chunks/main-5ad408a5eb6c76b9.js        27.5 kB
+  ├ chunks/pages/_app-1139d8b8a0622d8f.js  232 kB
+  ├ chunks/webpack-9fbb4d922a25fdc9.js     1.07 kB
+  └ css/5895a981221ae065.css               7.48 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+Restarting services...
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [kashmirnirvana.com](ids: [ 0 ])
+[PM2] [kashmirnirvana.com](0) ✓
+┌────┬─────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 1  │ admin.kashmirnirvana.com    │ default     │ 0.39.3  │ fork    │ 12735    │ 2D     │ 0    │ online    │ 0%       │ 62.1mb   │ root     │ disabled │
+│ 0  │ kashmirnirvana.com          │ default     │ 0.39.3  │ fork    │ 84596    │ 0s     │ 4    │ online    │ 0%       │ 15.8mb   │ root     │ disabled │
+└────┴─────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Deployment completed successfully
+-------------------------
+Deploy started at Fri Jul  5 07:55:15 PM UTC 2024
+Deploying branch main to production...
+Already on 'main'
+Your branch is ahead of 'origin/main' by 16 commits.
+  (use "git push" to publish your local commits)
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @zeit/next-less@1.0.1
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn node_modules/@zeit/next-less
+npm warn   @zeit/next-less@"^1.0.1" from the root project
+npm warn
+npm warn Conflicting peer dependency: less@2.7.3
+npm warn node_modules/less
+npm warn   peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn     @zeit/next-less@"^1.0.1" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: less-loader@4.1.0
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn node_modules/@zeit/next-less/node_modules/less-loader
+npm warn   less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn
+npm warn Conflicting peer dependency: less@3.13.1
+npm warn node_modules/less
+npm warn   peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn   node_modules/@zeit/next-less/node_modules/less-loader
+npm warn     less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn     node_modules/@zeit/next-less
+
+up to date, audited 737 packages in 3s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (11 moderate, 12 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Running npm run build...
+
+> kupos@0.1.0 build
+> next build
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/terms-and-conditions/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/about-us/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/hotels-packages/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/blogs-home-list/blogs-home-list.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+warn  - Compiled with warnings
+
+./components/blogs-home-list/blogs-home-list.module.less
+Warning
+
+(29:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/index.js
+
+./components/hotels-packages/index.module.less
+Warning
+
+(31:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./components/hotels-packages/index.module.less
+./components/hotels-packages/index.js
+
+./pages/about-us/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/about-us/index.module.less
+
+./pages/terms-and-conditions/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/terms-and-conditions/index.module.less
+
+info  - Collecting page data...
+info  - Generating static pages (0/69)
+react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+{ image: undefined }
+null
+[]
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (17/69)
+{ image: undefined }
+{ image: undefined }
+null
+null
+[]
+[]
+element in fiocus null
+{ blog: null }
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (34/69)
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+info  - Generating static pages (51/69)
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ banners: [] }
+{ banners: [] }
+Tabs { tabs: [] }
+Tabs { tabs: [] }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+info  - Generating static pages (69/69)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ● /                                      9.68 kB         355 kB
+├   └ css/e0f2bbe1229c2b4b.css             1.46 kB
+├   /_app                                  0 B             306 kB
+├ ○ /_root                                 182 B           306 kB
+├ ○ /404                                   182 B           306 kB
+├ ● /about-us                              2.44 kB         324 kB
+├   └ css/1f88ce0e65229df9.css             3.46 kB
+├ ○ /activities                            1.77 kB         330 kB
+├   └ css/5d7ff66f4cba3462.css             1.91 kB
+├ ○ /activities/[activity]                 2.24 kB         330 kB
+├   └ css/c8cfdbc73cfefcb6.css             2.72 kB
+├ ○ /blogs                                 2.43 kB         324 kB
+├   └ css/a10a33fcd0e11cca.css             3.37 kB
+├ ○ /blogs/[blog-title]/[id]               4.1 kB          332 kB
+├   └ css/674afbfccf0c761c.css             2.42 kB
+├ ● /cars                                  2.47 kB         349 kB
+├   └ css/805dcd2bbfa3e577.css             691 B
+├ ● /cars-details                          5.04 kB         327 kB
+├   └ css/06937f085b7b5e68.css             2.66 kB
+├ ○ /contact-us                            999 B           323 kB
+├   └ css/3718caf768ab7317.css             2.53 kB
+├ ● /destinations                          3.27 kB         325 kB
+├   └ css/6d617ef5478eb20f.css             1.54 kB
+├ ● /destinations/[location]               3.62 kB         347 kB
+├   └ css/602d99f9974c09ba.css             1.05 kB
+├ ○ /destinations/[location]/tours         2.77 kB         346 kB
+├   └ css/a8da587484f40e39.css             898 B
+├ ● /hotel-details                         7.82 kB         330 kB
+├   └ css/df9638124a5552d6.css             3.97 kB
+├ ○ /Hotels                                1.71 kB         348 kB
+├   └ css/2fe3baf49be03a05.css             2.62 kB
+├ ● /index copy                            14 kB           353 kB
+├   └ css/89852f50f84d3296.css             3.45 kB
+├ ● /my-account                            3.15 kB         325 kB
+├   └ css/28c2a0f89f1fd8a0.css             3.65 kB
+├ ○ /others/member                         272 B           306 kB
+├ ○ /others/our                            1.56 kB         307 kB
+├ ○ /others/right                          274 B           306 kB
+├ ○ /others/sign                           275 B           306 kB
+├ ○ /others/started                        270 B           306 kB
+├ ● /package                               35.5 kB         364 kB
+├   └ css/f8e002f29310c3c3.css             4.15 kB
+├ ○ /privacy-policies                      5.67 kB         328 kB
+└ ○ /terms-and-conditions                  3.08 kB         325 kB
++ First Load JS shared by all              313 kB
+  ├ chunks/framework-36098b990598bc0c.js   45.4 kB
+  ├ chunks/main-5ad408a5eb6c76b9.js        27.5 kB
+  ├ chunks/pages/_app-1139d8b8a0622d8f.js  232 kB
+  ├ chunks/webpack-9fbb4d922a25fdc9.js     1.07 kB
+  └ css/5895a981221ae065.css               7.48 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+Restarting services...
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [kashmirnirvana.com](ids: [ 0 ])
+[PM2] [kashmirnirvana.com](0) ✓
+┌────┬─────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 1  │ admin.kashmirnirvana.com    │ default     │ 0.39.3  │ fork    │ 12735    │ 2D     │ 0    │ online    │ 0%       │ 61.9mb   │ root     │ disabled │
+│ 0  │ kashmirnirvana.com          │ default     │ 0.39.3  │ fork    │ 84933    │ 0s     │ 5    │ online    │ 0%       │ 24.8mb   │ root     │ disabled │
+└────┴─────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Deployment completed successfully
+-------------------------
+Deploy started at Fri Jul  5 07:57:23 PM UTC 2024
+Deploying branch main to production...
+Already on 'main'
+Your branch is ahead of 'origin/main' by 17 commits.
+  (use "git push" to publish your local commits)
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @zeit/next-less@1.0.1
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn node_modules/@zeit/next-less
+npm warn   @zeit/next-less@"^1.0.1" from the root project
+npm warn
+npm warn Conflicting peer dependency: less@2.7.3
+npm warn node_modules/less
+npm warn   peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn     @zeit/next-less@"^1.0.1" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: less-loader@4.1.0
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn node_modules/@zeit/next-less/node_modules/less-loader
+npm warn   less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn
+npm warn Conflicting peer dependency: less@3.13.1
+npm warn node_modules/less
+npm warn   peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn   node_modules/@zeit/next-less/node_modules/less-loader
+npm warn     less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn     node_modules/@zeit/next-less
+
+up to date, audited 737 packages in 3s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (11 moderate, 12 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Running npm run build...
+
+> kupos@0.1.0 build
+> next build
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/terms-and-conditions/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/about-us/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/hotels-packages/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/blogs-home-list/blogs-home-list.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+warn  - Compiled with warnings
+
+./components/blogs-home-list/blogs-home-list.module.less
+Warning
+
+(29:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/index.js
+
+./components/hotels-packages/index.module.less
+Warning
+
+(31:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./components/hotels-packages/index.module.less
+./components/hotels-packages/index.js
+
+./pages/about-us/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/about-us/index.module.less
+
+./pages/terms-and-conditions/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/terms-and-conditions/index.module.less
+
+info  - Collecting page data...
+info  - Generating static pages (0/69)
+react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+{ image: undefined }
+null
+[]
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (17/69)
+{ image: undefined }
+{ image: undefined }
+null
+null
+[]
+[]
+element in fiocus null
+{ blog: null }
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (34/69)
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+info  - Generating static pages (51/69)
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ banners: [] }
+{ banners: [] }
+Tabs { tabs: [] }
+Tabs { tabs: [] }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+info  - Generating static pages (69/69)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ● /                                      9.67 kB         355 kB
+├   └ css/e0f2bbe1229c2b4b.css             1.46 kB
+├   /_app                                  0 B             306 kB
+├ ○ /_root                                 182 B           306 kB
+├ ○ /404                                   182 B           306 kB
+├ ● /about-us                              2.44 kB         324 kB
+├   └ css/1f88ce0e65229df9.css             3.46 kB
+├ ○ /activities                            1.77 kB         330 kB
+├   └ css/5d7ff66f4cba3462.css             1.91 kB
+├ ○ /activities/[activity]                 2.24 kB         330 kB
+├   └ css/c8cfdbc73cfefcb6.css             2.72 kB
+├ ○ /blogs                                 2.43 kB         324 kB
+├   └ css/a10a33fcd0e11cca.css             3.37 kB
+├ ○ /blogs/[blog-title]/[id]               4.1 kB          332 kB
+├   └ css/674afbfccf0c761c.css             2.42 kB
+├ ● /cars                                  2.47 kB         349 kB
+├   └ css/805dcd2bbfa3e577.css             691 B
+├ ● /cars-details                          5.04 kB         327 kB
+├   └ css/06937f085b7b5e68.css             2.66 kB
+├ ○ /contact-us                            999 B           323 kB
+├   └ css/3718caf768ab7317.css             2.53 kB
+├ ● /destinations                          3.27 kB         325 kB
+├   └ css/6d617ef5478eb20f.css             1.54 kB
+├ ● /destinations/[location]               3.62 kB         347 kB
+├   └ css/602d99f9974c09ba.css             1.05 kB
+├ ○ /destinations/[location]/tours         2.77 kB         346 kB
+├   └ css/a8da587484f40e39.css             898 B
+├ ● /hotel-details                         7.82 kB         330 kB
+├   └ css/df9638124a5552d6.css             3.97 kB
+├ ○ /Hotels                                1.71 kB         348 kB
+├   └ css/2fe3baf49be03a05.css             2.62 kB
+├ ● /index copy                            14 kB           353 kB
+├   └ css/89852f50f84d3296.css             3.45 kB
+├ ● /my-account                            3.15 kB         325 kB
+├   └ css/28c2a0f89f1fd8a0.css             3.65 kB
+├ ○ /others/member                         272 B           306 kB
+├ ○ /others/our                            1.56 kB         307 kB
+├ ○ /others/right                          274 B           306 kB
+├ ○ /others/sign                           275 B           306 kB
+├ ○ /others/started                        270 B           306 kB
+├ ● /package                               35.5 kB         364 kB
+├   └ css/f8e002f29310c3c3.css             4.15 kB
+├ ○ /privacy-policies                      5.67 kB         328 kB
+└ ○ /terms-and-conditions                  3.08 kB         325 kB
++ First Load JS shared by all              313 kB
+  ├ chunks/framework-36098b990598bc0c.js   45.4 kB
+  ├ chunks/main-5ad408a5eb6c76b9.js        27.5 kB
+  ├ chunks/pages/_app-1139d8b8a0622d8f.js  232 kB
+  ├ chunks/webpack-9fbb4d922a25fdc9.js     1.07 kB
+  └ css/5895a981221ae065.css               7.48 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+Restarting services...
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [kashmirnirvana.com](ids: [ 0 ])
+[PM2] [kashmirnirvana.com](0) ✓
+┌────┬─────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 1  │ admin.kashmirnirvana.com    │ default     │ 0.39.3  │ fork    │ 12735    │ 2D     │ 0    │ online    │ 0%       │ 61.8mb   │ root     │ disabled │
+│ 0  │ kashmirnirvana.com          │ default     │ 0.39.3  │ fork    │ 85271    │ 0s     │ 6    │ online    │ 0%       │ 22.0mb   │ root     │ disabled │
+└────┴─────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Deployment completed successfully
+-------------------------
+Deploy started at Sun Jul  7 06:10:11 PM UTC 2024
+Deploying branch main to production...
+Already on 'main'
+Your branch is ahead of 'origin/main' by 18 commits.
+  (use "git push" to publish your local commits)
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @zeit/next-less@1.0.1
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn node_modules/@zeit/next-less
+npm warn   @zeit/next-less@"^1.0.1" from the root project
+npm warn
+npm warn Conflicting peer dependency: less@2.7.3
+npm warn node_modules/less
+npm warn   peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn     @zeit/next-less@"^1.0.1" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: less-loader@4.1.0
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn node_modules/@zeit/next-less/node_modules/less-loader
+npm warn   less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn
+npm warn Conflicting peer dependency: less@3.13.1
+npm warn node_modules/less
+npm warn   peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn   node_modules/@zeit/next-less/node_modules/less-loader
+npm warn     less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn     node_modules/@zeit/next-less
+
+added 2 packages, changed 1 package, and audited 739 packages in 13s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (11 moderate, 12 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Running npm run build...
+
+> kupos@0.1.0 build
+> next build
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/terms-and-conditions/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/about-us/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/hotels-packages/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/blogs-home-list/blogs-home-list.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/about-us/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/terms-and-conditions/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/hotels-packages/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/blogs-home-list/blogs-home-list.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+warn  - Compiled with warnings
+
+./components/blogs-home-list/blogs-home-list.module.less.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!./components/blogs-home-list/blogs-home-list.module.less
+Warning
+
+(29:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./components/blogs-home-list/blogs-home-list.module.less.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/index.js
+
+./components/hotels-packages/index.module.less.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!./components/hotels-packages/index.module.less
+Warning
+
+(31:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./components/hotels-packages/index.module.less.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!./components/hotels-packages/index.module.less
+./components/hotels-packages/index.module.less
+./components/hotels-packages/index.js
+
+./pages/about-us/index.module.less.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!./pages/about-us/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/about-us/index.module.less.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!./pages/about-us/index.module.less
+./pages/about-us/index.module.less
+
+./pages/terms-and-conditions/index.module.less.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!./pages/terms-and-conditions/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/terms-and-conditions/index.module.less.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[3]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[4]!./pages/terms-and-conditions/index.module.less
+./pages/terms-and-conditions/index.module.less
+
+./components/blogs-home-list/blogs-home-list.module.less
+Warning
+
+(29:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/index.js
+
+./components/hotels-packages/index.module.less
+Warning
+
+(31:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./components/hotels-packages/index.module.less
+./components/hotels-packages/index.js
+
+./pages/about-us/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/about-us/index.module.less
+
+./pages/terms-and-conditions/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/terms-and-conditions/index.module.less
+
+info  - Collecting page data...
+info  - Generating static pages (0/69)
+react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+{ image: undefined }
+null
+[]
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (17/69)
+{ image: undefined }
+{ image: undefined }
+null
+null
+[]
+[]
+element in fiocus null
+{ blog: null }
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (34/69)
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+info  - Generating static pages (51/69)
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ banners: [] }
+{ banners: [] }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+Tabs { tabs: [] }
+Tabs { tabs: [] }
+info  - Generating static pages (69/69)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ● /                                      9.67 kB         355 kB
+├   └ css/e0f2bbe1229c2b4b.css             1.46 kB
+├   /_app                                  0 B             306 kB
+├ ○ /_root                                 182 B           306 kB
+├ ○ /404                                   182 B           306 kB
+├ ● /about-us                              2.44 kB         324 kB
+├   └ css/1f88ce0e65229df9.css             3.46 kB
+├ ○ /activities                            1.77 kB         330 kB
+├   └ css/5d7ff66f4cba3462.css             1.91 kB
+├ ○ /activities/[activity]                 2.24 kB         330 kB
+├   └ css/c8cfdbc73cfefcb6.css             2.72 kB
+├ ○ /blogs                                 2.43 kB         324 kB
+├   └ css/a10a33fcd0e11cca.css             3.37 kB
+├ ○ /blogs/[blog-title]/[id]               4.1 kB          332 kB
+├   └ css/674afbfccf0c761c.css             2.42 kB
+├ ● /cars                                  2.47 kB         349 kB
+├   └ css/805dcd2bbfa3e577.css             691 B
+├ ● /cars-details                          5.04 kB         327 kB
+├   └ css/06937f085b7b5e68.css             2.66 kB
+├ ○ /contact-us                            999 B           323 kB
+├   └ css/3718caf768ab7317.css             2.53 kB
+├ ● /destinations                          3.27 kB         325 kB
+├   └ css/6d617ef5478eb20f.css             1.54 kB
+├ ● /destinations/[location]               3.62 kB         347 kB
+├   └ css/602d99f9974c09ba.css             1.05 kB
+├ ○ /destinations/[location]/tours         2.77 kB         346 kB
+├   └ css/a8da587484f40e39.css             898 B
+├ ● /hotel-details                         7.82 kB         330 kB
+├   └ css/df9638124a5552d6.css             3.97 kB
+├ ○ /Hotels                                1.71 kB         348 kB
+├   └ css/2fe3baf49be03a05.css             2.62 kB
+├ ● /index copy                            11.7 kB         354 kB
+├   └ css/89852f50f84d3296.css             3.45 kB
+├ ● /my-account                            3.15 kB         325 kB
+├   └ css/28c2a0f89f1fd8a0.css             3.65 kB
+├ ○ /others/member                         272 B           306 kB
+├ ○ /others/our                            1.56 kB         307 kB
+├ ○ /others/right                          274 B           306 kB
+├ ○ /others/sign                           275 B           306 kB
+├ ○ /others/started                        270 B           306 kB
+├ ● /package                               50 kB           381 kB
+├   └ css/5ef8449516bf9fd0.css             5.14 kB
+├ ○ /privacy-policies                      5.67 kB         328 kB
+└ ○ /terms-and-conditions                  3.08 kB         325 kB
++ First Load JS shared by all              313 kB
+  ├ chunks/framework-36098b990598bc0c.js   45.4 kB
+  ├ chunks/main-5ad408a5eb6c76b9.js        27.5 kB
+  ├ chunks/pages/_app-1139d8b8a0622d8f.js  232 kB
+  ├ chunks/webpack-9fbb4d922a25fdc9.js     1.07 kB
+  └ css/5895a981221ae065.css               7.48 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+Restarting services...
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [kashmirnirvana.com](ids: [ 0 ])
+[PM2] [kashmirnirvana.com](0) ✓
+┌────┬─────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 1  │ admin.kashmirnirvana.com    │ default     │ 0.39.3  │ fork    │ 12735    │ 4D     │ 0    │ online    │ 3.1%     │ 60.9mb   │ root     │ disabled │
+│ 0  │ kashmirnirvana.com          │ default     │ 0.39.3  │ fork    │ 129324   │ 0s     │ 7    │ online    │ 0%       │ 12.6mb   │ root     │ disabled │
+└────┴─────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Deployment completed successfully
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @zeit/next-less@1.0.1
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn node_modules/@zeit/next-less
+npm warn   @zeit/next-less@"^1.0.1" from the root project
+npm warn
+npm warn Conflicting peer dependency: less@2.7.3
+npm warn node_modules/less
+npm warn   peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn     @zeit/next-less@"^1.0.1" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: less-loader@4.1.0
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn node_modules/@zeit/next-less/node_modules/less-loader
+npm warn   less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn
+npm warn Conflicting peer dependency: less@3.13.1
+npm warn node_modules/less
+npm warn   peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn   node_modules/@zeit/next-less/node_modules/less-loader
+npm warn     less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn     node_modules/@zeit/next-less
+
+up to date, audited 739 packages in 7s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (11 moderate, 12 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Running npm run build...
+
+> kupos@0.1.0 build
+> next build
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/terms-and-conditions/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/about-us/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/hotels-packages/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/blogs-home-list/blogs-home-list.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+warn  - Compiled with warnings
+
+./components/blogs-home-list/blogs-home-list.module.less
+Warning
+
+(29:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/index.js
+
+./components/hotels-packages/index.module.less
+Warning
+
+(31:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./components/hotels-packages/index.module.less
+./components/hotels-packages/index.js
+
+./pages/about-us/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/about-us/index.module.less
+
+./pages/terms-and-conditions/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/terms-and-conditions/index.module.less
+
+info  - Collecting page data...
+info  - Generating static pages (0/69)
+react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+{ image: undefined }
+null
+[]
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (17/69)
+{ image: undefined }
+{ image: undefined }
+null
+null
+[]
+[]
+element in fiocus null
+{ blog: null }
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (34/69)
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+info  - Generating static pages (51/69)
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ banners: [] }
+{ banners: [] }
+Tabs { tabs: [] }
+Tabs { tabs: [] }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+info  - Generating static pages (69/69)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ● /                                      9.67 kB         355 kB
+├   └ css/e0f2bbe1229c2b4b.css             1.46 kB
+├   /_app                                  0 B             306 kB
+├ ○ /_root                                 182 B           306 kB
+├ ○ /404                                   182 B           306 kB
+├ ● /about-us                              2.44 kB         324 kB
+├   └ css/1f88ce0e65229df9.css             3.46 kB
+├ ○ /activities                            1.77 kB         330 kB
+├   └ css/5d7ff66f4cba3462.css             1.91 kB
+├ ○ /activities/[activity]                 2.24 kB         330 kB
+├   └ css/c8cfdbc73cfefcb6.css             2.72 kB
+├ ○ /blogs                                 2.43 kB         324 kB
+├   └ css/a10a33fcd0e11cca.css             3.37 kB
+├ ○ /blogs/[blog-title]/[id]               4.1 kB          332 kB
+├   └ css/674afbfccf0c761c.css             2.42 kB
+├ ● /cars                                  2.47 kB         349 kB
+├   └ css/805dcd2bbfa3e577.css             691 B
+├ ● /cars-details                          5.04 kB         327 kB
+├   └ css/06937f085b7b5e68.css             2.66 kB
+├ ○ /contact-us                            999 B           323 kB
+├   └ css/3718caf768ab7317.css             2.53 kB
+├ ● /destinations                          3.27 kB         325 kB
+├   └ css/6d617ef5478eb20f.css             1.54 kB
+├ ● /destinations/[location]               3.62 kB         347 kB
+├   └ css/602d99f9974c09ba.css             1.05 kB
+├ ○ /destinations/[location]/tours         2.77 kB         346 kB
+├   └ css/a8da587484f40e39.css             898 B
+├ ● /hotel-details                         7.82 kB         330 kB
+├   └ css/df9638124a5552d6.css             3.97 kB
+├ ○ /Hotels                                1.71 kB         348 kB
+├   └ css/2fe3baf49be03a05.css             2.62 kB
+├ ● /index copy                            11.7 kB         354 kB
+├   └ css/89852f50f84d3296.css             3.45 kB
+├ ● /my-account                            3.15 kB         325 kB
+├   └ css/28c2a0f89f1fd8a0.css             3.65 kB
+├ ○ /others/member                         272 B           306 kB
+├ ○ /others/our                            1.56 kB         307 kB
+├ ○ /others/right                          274 B           306 kB
+├ ○ /others/sign                           275 B           306 kB
+├ ○ /others/started                        270 B           306 kB
+├ ● /package                               50 kB           381 kB
+├   └ css/5ef8449516bf9fd0.css             5.14 kB
+├ ○ /privacy-policies                      5.67 kB         328 kB
+└ ○ /terms-and-conditions                  3.08 kB         325 kB
++ First Load JS shared by all              313 kB
+  ├ chunks/framework-36098b990598bc0c.js   45.4 kB
+  ├ chunks/main-5ad408a5eb6c76b9.js        27.5 kB
+  ├ chunks/pages/_app-1139d8b8a0622d8f.js  232 kB
+  ├ chunks/webpack-9fbb4d922a25fdc9.js     1.07 kB
+  └ css/08e46cca1f76da28.css               7.48 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+Restarting services...
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [kashmirnirvana.com](ids: [ 0 ])
+[PM2] [kashmirnirvana.com](0) ✓
+┌────┬─────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 1  │ admin.kashmirnirvana.com    │ default     │ 0.39.3  │ fork    │ 12735    │ 4D     │ 0    │ online    │ 0%       │ 59.9mb   │ root     │ disabled │
+│ 0  │ kashmirnirvana.com          │ default     │ 0.39.3  │ fork    │ 129781   │ 0s     │ 8    │ online    │ 0%       │ 21.9mb   │ root     │ disabled │
+└────┴─────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Deployment completed successfully
+Current directory: /home/kashmirnirvana/htdocs/kashmirnirvana.com
+Running npm install...
+npm warn using --force Recommended protections disabled.
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/core@4.12.4
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn node_modules/@material-ui/core
+npm warn   @material-ui/core@"^4.12.4" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn     @material-ui/core@"^4.12.4" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/styles@4.11.5
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn node_modules/@material-ui/styles
+npm warn   @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.5
+npm warn   node_modules/@material-ui/styles
+npm warn     @material-ui/styles@"^4.11.5" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/system@4.12.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn node_modules/@material-ui/system
+npm warn   @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.12.2
+npm warn   node_modules/@material-ui/system
+npm warn     @material-ui/system@"^4.12.2" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @material-ui/utils@4.11.3
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn node_modules/@material-ui/utils
+npm warn   @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn   node_modules/@material-ui/core
+npm warn   2 more (@material-ui/styles, @material-ui/system)
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.3
+npm warn   node_modules/@material-ui/utils
+npm warn     @material-ui/utils@"^4.11.3" from @material-ui/core@4.12.4
+npm warn     node_modules/@material-ui/core
+npm warn     2 more (@material-ui/styles, @material-ui/system)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @zeit/next-less@1.0.1
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn node_modules/@zeit/next-less
+npm warn   @zeit/next-less@"^1.0.1" from the root project
+npm warn
+npm warn Conflicting peer dependency: less@2.7.3
+npm warn node_modules/less
+npm warn   peer less@"^2.7.3" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn     @zeit/next-less@"^1.0.1" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react@18.2.0
+npm warn node_modules/react
+npm warn   react@"18.2.0" from the root project
+npm warn   33 more (@emotion/react, @emotion/styled, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react@17.0.2
+npm warn node_modules/react
+npm warn   peer react@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: react-ticker@1.3.2
+npm warn Found: react-dom@18.2.0
+npm warn node_modules/react-dom
+npm warn   react-dom@"18.2.0" from the root project
+npm warn   9 more (@floating-ui/react-dom, @mui/base, @mui/material, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn node_modules/react-ticker
+npm warn   react-ticker@"^1.3.2" from the root project
+npm warn
+npm warn Conflicting peer dependency: react-dom@17.0.2
+npm warn node_modules/react-dom
+npm warn   peer react-dom@"^17.0.2" from react-ticker@1.3.2
+npm warn   node_modules/react-ticker
+npm warn     react-ticker@"^1.3.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: less-loader@4.1.0
+npm warn Found: less@4.2.0
+npm warn node_modules/less
+npm warn   less@"^4.2.0" from the root project
+npm warn   2 more (less-loader, next-with-less)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn node_modules/@zeit/next-less/node_modules/less-loader
+npm warn   less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn   node_modules/@zeit/next-less
+npm warn
+npm warn Conflicting peer dependency: less@3.13.1
+npm warn node_modules/less
+npm warn   peer less@"^2.3.1 || ^3.0.0" from less-loader@4.1.0
+npm warn   node_modules/@zeit/next-less/node_modules/less-loader
+npm warn     less-loader@"4.1.0" from @zeit/next-less@1.0.1
+npm warn     node_modules/@zeit/next-less
+
+up to date, audited 739 packages in 9s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (11 moderate, 12 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Running npm run build...
+
+> kupos@0.1.0 build
+> next build
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/terms-and-conditions/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/pages/about-us/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/hotels-packages/index.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[0]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[6].use[1]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[3].oneOf[6].use[2]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[3].oneOf[6].use[3]!/home/kashmirnirvana/htdocs/kashmirnirvana.com/components/blogs-home-list/blogs-home-list.module.less': No serializer registered for Warning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> Warning
+warn  - Compiled with warnings
+
+./components/blogs-home-list/blogs-home-list.module.less
+Warning
+
+(29:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Import trace for requested module:
+./components/blogs-home-list/blogs-home-list.module.less
+./components/blogs-home-list/index.js
+
+./components/hotels-packages/index.module.less
+Warning
+
+(31:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./components/hotels-packages/index.module.less
+./components/hotels-packages/index.js
+
+./pages/about-us/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/about-us/index.module.less
+
+./pages/terms-and-conditions/index.module.less
+Warning
+
+(18:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Import trace for requested module:
+./pages/terms-and-conditions/index.module.less
+
+info  - Collecting page data...
+info  - Generating static pages (0/69)
+null
+[]
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+{ image: undefined }
+info  - Generating static pages (17/69)
+null
+null
+[]
+[]
+element in fiocus null
+{ blog: null }
+element in fiocus null
+{ blog: null }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' }
+  ]
+}
+info  - Generating static pages (34/69)
+{ image: undefined }
+{ image: undefined }
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+{
+  images: [
+    { id: 1, img: '/images/about-images/a1.jpg' },
+    { id: 2, img: '/images/about-images/a7.jpg' },
+    { id: 3, img: '/images/about-images/a3.jpg' },
+    { id: 4, img: '/images/about-images/a4.jpg' },
+    { id: 5, img: '/images/about-images/a5.jpg' },
+    { id: 6, img: '/images/about-images/a6.jpg' },
+    { id: 7, img: '/images/about-images/a7.jpg' },
+    { id: 8, img: '/images/about-images/a8.jpg' },
+    { id: 9, img: '/images/about-images/a5.jpg' },
+    { id: 10, img: '/images/about-images/a6.jpg' },
+    { id: 11, img: '/images/about-images/a7.jpg' },
+    { id: 12, img: '/images/about-images/a8.jpg' }
+  ]
+}
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+Schemavalue { schemaValue: {} }
+{ image: undefined }
+info  - Generating static pages (51/69)
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ schemaValue: null }
+{ image: undefined }
+selected car :  { selectedCar: null }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ image: undefined }
+{ banners: [] }
+{ banners: [] }
+Tabs { tabs: [] }
+Tabs { tabs: [] }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+pack---------- null
+{ selectedChoice: null }
+{ pack: null }
+info  - Generating static pages (69/69)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ● /                                      9.82 kB         355 kB
+├   └ css/e0f2bbe1229c2b4b.css             1.46 kB
+├   /_app                                  0 B             306 kB
+├ ○ /_root                                 182 B           306 kB
+├ ○ /404                                   182 B           306 kB
+├ ● /about-us                              2.45 kB         324 kB
+├   └ css/1f88ce0e65229df9.css             3.46 kB
+├ ○ /activities                            1.77 kB         330 kB
+├   └ css/5d7ff66f4cba3462.css             1.91 kB
+├ ○ /activities/[activity]                 2.24 kB         330 kB
+├   └ css/c8cfdbc73cfefcb6.css             2.72 kB
+├ ○ /blogs                                 2.42 kB         324 kB
+├   └ css/a10a33fcd0e11cca.css             3.37 kB
+├ ○ /blogs/[blog-title]/[id]               4.09 kB         332 kB
+├   └ css/674afbfccf0c761c.css             2.42 kB
+├ ● /cars                                  2.47 kB         349 kB
+├   └ css/805dcd2bbfa3e577.css             691 B
+├ ● /cars-details                          5.03 kB         327 kB
+├   └ css/06937f085b7b5e68.css             2.66 kB
+├ ○ /contact-us                            999 B           323 kB
+├   └ css/3718caf768ab7317.css             2.53 kB
+├ ● /destinations                          3.26 kB         325 kB
+├   └ css/6d617ef5478eb20f.css             1.54 kB
+├ ● /destinations/[location]               3.63 kB         347 kB
+├   └ css/602d99f9974c09ba.css             1.05 kB
+├ ○ /destinations/[location]/tours         2.77 kB         346 kB
+├   └ css/a8da587484f40e39.css             898 B
+├ ● /hotel-details                         7.84 kB         330 kB
+├   └ css/df9638124a5552d6.css             3.97 kB
+├ ○ /Hotels                                1.71 kB         348 kB
+├   └ css/2fe3baf49be03a05.css             2.62 kB
+├ ● /index copy                            11.7 kB         353 kB
+├   └ css/89852f50f84d3296.css             3.45 kB
+├ ● /my-account                            3.17 kB         325 kB
+├   └ css/28c2a0f89f1fd8a0.css             3.65 kB
+├ ○ /others/member                         272 B           306 kB
+├ ○ /others/our                            1.56 kB         307 kB
+├ ○ /others/right                          274 B           306 kB
+├ ○ /others/sign                           275 B           306 kB
+├ ○ /others/started                        270 B           306 kB
+├ ● /package                               50 kB           381 kB
+├   └ css/5ef8449516bf9fd0.css             5.14 kB
+├ ○ /privacy-policies                      5.67 kB         328 kB
+└ ○ /terms-and-conditions                  3.08 kB         325 kB
++ First Load JS shared by all              313 kB
+  ├ chunks/framework-36098b990598bc0c.js   45.4 kB
+  ├ chunks/main-5ad408a5eb6c76b9.js        27.5 kB
+  ├ chunks/pages/_app-1139d8b8a0622d8f.js  232 kB
+  ├ chunks/webpack-9fbb4d922a25fdc9.js     1.07 kB
+  └ css/08e46cca1f76da28.css               7.48 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
+Restarting services...
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [kashmirnirvana.com](ids: [ 0 ])
+[PM2] [kashmirnirvana.com](0) ✓
+┌────┬─────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                        │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 1  │ admin.kashmirnirvana.com    │ default     │ 0.39.3  │ fork    │ 12735    │ 5D     │ 0    │ online    │ 0%       │ 62.5mb   │ root     │ disabled │
+│ 0  │ kashmirnirvana.com          │ default     │ 0.39.3  │ fork    │ 138216   │ 0s     │ 9    │ online    │ 0%       │ 13.5mb   │ root     │ disabled │
+└────┴─────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Deployment completed successfully
+Push successfull and branch is uptodate with remote branch

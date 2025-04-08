@@ -1,0 +1,24 @@
+.language_changer_switch {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  font-size: 10pt;
+  border-radius: 6px;
+  margin-left: 10px;
+
+  &.border {
+    border: 1px solid #ccc;
+  }
+
+  .language_item {
+    padding: 10px 9px 7px;
+    cursor: pointer;
+    color: #000;
+
+    &.active {
+      background-color: #ff5c60;
+      border-radius: 5px;
+      color: #fff;
+    }
+  }
+}

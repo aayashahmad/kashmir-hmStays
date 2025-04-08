@@ -1,0 +1,90 @@
+.home_services_main {
+    margin-bottom: 30px;
+    .home_services_head {
+      display: flex;
+      font-size: 2em;
+      align-items: center;
+      img {
+        width: 50px;
+        margin-right: 20px;
+      }
+      .home_services_text {
+        font-size: 30px;
+      }
+    }
+    .home_services_body {
+      display: flex;
+      margin-top: 10px;
+      .home_destination_item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+        height: 100%;
+        margin-top: 30px;
+        transition: 300ms ease-in-out all;
+        .home_destination_img {
+          width: 96%;
+          position: relative;
+          overflow: hidden;
+          border-radius: 25px;
+        }
+        .icon,
+        .icon_hover {
+          position: absolute;
+          width: 24%;
+          right: 10px;
+          top: -160px;
+          opacity: 1;
+          transition: 300ms ease-in-out all;
+        }
+        .icon_hover {
+          opacity: 0;
+        }
+        .title {
+          background-color: var(--primary-color);
+          color: var(--secondary-color);
+          padding: 20px;
+          border-radius: 0 0 25px 25px;
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          transition: 300ms ease-in-out all;
+        }
+        .text_hover {
+          background-color: var(--secondary-color);
+          color: var(--primary-color);
+          border-radius: 0 0 25px 25px;
+          position: absolute;
+          padding: 20px;
+          width: 100%;
+          bottom: -150px;
+          transition: 300ms ease-in-out all;
+          .title_hover {
+            margin-bottom: 10px;
+            font-size: 12.5pt;
+          }
+        }
+      }
+      .home_destination_item:hover {
+        cursor: pointer;
+        margin-top: 0px;
+        .icon_hover {
+          opacity: 1;
+        }
+        .icon {
+          opacity: 0;
+        }
+  
+        .text_hover {
+          bottom: 0px;
+        }
+        .title {
+          bottom: -40px;
+        }
+  
+        .home_destination_img .on_hover {
+          opacity: 1;
+        }
+      }
+    }
+  }

@@ -1,0 +1,132 @@
+.aboutus_hero_img {
+    width: auto;
+    height: 90vh;
+    position: relative;
+
+    img {
+        height: 100% !important;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .aboutus_overly {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding: 0 220px;
+
+        .aboutus_overly_small {
+            font-size: 18px;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        .aboutus_overly_big {
+            font-size: 80px;
+            font-weight: 800;
+            color: #fff;
+        }
+    }
+}
+
+
+// ************************about us media querie ***********************
+
+
+@media screen and (max-width:1024px) {
+
+    .aboutus_hero_img {
+        .aboutus_overly {
+            .aboutus_overly_small {
+                font-size: 16px;
+            }
+
+            .aboutus_overly_big {
+                font-size: 60px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:920px) {
+
+    .aboutus_hero_img {
+        .aboutus_overly {
+            padding: 0 104px;
+
+            .aboutus_overly_small {
+                font-size: 14px;
+            }
+
+            .aboutus_overly_big {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:820px) {
+    .aboutus_hero_img{
+        height: 50dvh;
+    }
+    
+}
+
+@media screen and (max-width:640px) {
+
+    .aboutus_hero_img {
+        .aboutus_overly {
+            padding: 0 90px;
+
+            .aboutus_overly_small {
+                font-size: 13px;
+            }
+
+            .aboutus_overly_big {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:436px) {
+
+    .aboutus_hero_img {
+
+        .aboutus_overly {
+            padding: 0 60px;
+
+            .aboutus_overly_small {
+                font-size: 12px;
+            }
+
+            .aboutus_overly_big {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .aboutus_hero_img {
+
+        .aboutus_overly {
+            padding: 0 50px;
+
+            .aboutus_overly_small {
+                font-size: 10px;
+            }
+
+            .aboutus_overly_big {
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.main_nav_container {
+  width: 100%;
+  z-index: 999;
+  padding-top: 1vw;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+.main_nav_container.main_nav_container_fixed_header {
+  position: fixed;
+}
+.main_nav_container.main_nav_container_absolute_header {
+  position: absolute;
+}
+.main_nav_container .nav_container {
+  display: grid;
+  grid-template-columns: 18vw auto;
+  padding: 20px 0;
+}
+.main_nav_container .nav_container .logo {
+  width: 18vw;
+}
+.main_nav_container .nav_container .logo img {
+  transition: 0.25s all linear;
+}
+.main_nav_container .nav_container .links_container {
+  align-self: center;
+}
+.main_nav_container .nav_container .links_container ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main_nav_container .nav_container .links_container ul .cancel_ticket_top_strip {
+  padding: 5px 14px;
+  height: 40px;
+  /* width: 136px; */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  border-radius: 30px;
+  color: #000;
+}
+.main_nav_container .nav_container .links_container ul .cancel_ticket_top_strip .cancel_ticket_top_strip_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_nav_container .nav_container .links_container ul .cancel_ticket_top_strip .cancel_ticket_top_strip_inner img {
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}
+.main_nav_container .nav_container .links_container ul .cancel_ticket_top_strip .cancel_ticket_top_strip_inner span {
+  margin-top: 1px;
+}

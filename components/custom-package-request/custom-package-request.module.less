@@ -1,0 +1,134 @@
+.custom_booking_wrapper_outer {
+  // background-color: white;
+
+  .custom_booking_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0;
+    position: relative;
+    // min-height: 900px;
+    @media (min-width: 920px) {
+      align-content: center;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      padding: 50px 0;
+    }
+
+    .custom_package {
+      display: grid;
+      place-items: center;
+      .img_wrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+
+        .money_back {
+          position: absolute;
+          top: -14px;
+          left: -20px;
+          height: auto;
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: baseline;
+          img {
+            transform: rotate(-22deg);
+            width: 30%;
+            height: auto;
+          }
+
+          @media (max-width: 768px) {
+            left: 30px;
+            img {
+              width: 20%;
+            }
+          }
+        }
+
+        .img {
+          width: 100%;
+          height: 100%;
+        }
+
+        @media (max-width: 768px) {
+          justify-content: center;
+
+          .img {
+            width: 50% !important;
+            height: auto !;
+          }
+        }
+      }
+    }
+
+    .custom_package_details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .custom_package_wrapper {
+        .title {
+          font-size: 22px !important;
+          @media (max-width: 920px) {
+            font-size: 20px !important;
+            margin-top: 20px;
+          }
+
+          color: #202020;
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+      }
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+
+      .details {
+        line-height: 2;
+      }
+
+      .amenities_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+        margin: 50px 0px;
+        text-align: left;
+        @media (max-width: 768px) {
+          text-align: center;
+        }
+
+        .amenity_item {
+          img {
+            width: 60px !important;
+            width: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            margin-right: 20px;
+          }
+        }
+      }
+
+      .custom_action {
+        border: 1px solid #444;
+        width: 60%;
+        padding: 12px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+
+        @media (max-width: 1200px) {
+          width: 90%;
+        }
+        @media (max-width: 920px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
